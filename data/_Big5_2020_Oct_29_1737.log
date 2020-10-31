@@ -1,0 +1,255 @@
+0.2939 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.3524 	INFO 	Loaded monitor calibration from ['2020_10_12 18:18']
+4.1257 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='black', colorSpace='named', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x141927a90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x14164fdd8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.1260 	EXP 	window1: mouseVisible = True
+4.1261 	EXP 	window1: recordFrameIntervals = False
+4.3082 	EXP 	window1: recordFrameIntervals = True
+4.4922 	DEBUG 	Screen (0) actual frame rate measured at 59.76
+4.4923 	EXP 	window1: recordFrameIntervals = False
+4.5695 	EXP 	Created IntroScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='IntroScreen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Big 5 Test', units='height', win=Window(...), wrapWidth=1)
+4.6153 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.6426 	EXP 	Created scenario1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='scenario1', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.6484 	EXP 	Created notAtAll = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='notAtAll', opacity=1.0, ori=0, pos=array([-0.4, -0.2]), rgb=array([255., 255., 255.]), text='Not at All', units='height', win=Window(...), wrapWidth=1)
+4.6533 	EXP 	Created veryMuch = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='veryMuch', opacity=1.0, ori=0, pos=array([ 0.4, -0.2]), rgb=array([255., 255., 255.]), text='Very much', units='height', win=Window(...), wrapWidth=1)
+4.6612 	EXP 	window1: mouseVisible = True
+4.6802 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.7007 	EXP 	Created riskBehaviorScaleScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='riskBehaviorScaleScreen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.7312 	EXP 	Created activity = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='activity', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.7358 	EXP 	Created notAtAll2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='notAtAll2', opacity=1.0, ori=0, pos=array([-0.3, -0.1]), rgb=array([255., 255., 255.]), text='Very unlikely', units='height', win=Window(...), wrapWidth=1)
+4.7378 	EXP 	Created ExtremelyLikely = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ExtremelyLikely', opacity=1.0, ori=0, pos=array([ 0.3, -0.1]), rgb=array([255., 255., 255.]), text='Very likely', units='height', win=Window(...), wrapWidth=1)
+4.7379 	EXP 	window1: mouseVisible = True
+4.7520 	EXP 	Created rating2 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating2', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.7545 	EXP 	Created unlikely = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='unlikely', opacity=1.0, ori=0, pos=array([-0.15, -0.1 ]), rgb=array([255., 255., 255.]), text='Unlikely', units='height', win=Window(...), wrapWidth=1)
+4.7580 	EXP 	Created neutral = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='neutral', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([255., 255., 255.]), text='Not sure', units='height', win=Window(...), wrapWidth=1)
+4.7601 	EXP 	Created Likely = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Likely', opacity=1.0, ori=0, pos=array([ 0.15, -0.1 ]), rgb=array([255., 255., 255.]), text='Likely', units='height', win=Window(...), wrapWidth=1)
+4.7875 	EXP 	Created riskPerceptionInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='riskPerceptionInstructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.8122 	EXP 	Created riskPerceptionActivity2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='riskPerceptionActivity2', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.8124 	EXP 	window1: mouseVisible = True
+4.8211 	EXP 	Created rating3 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating3', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.8236 	EXP 	Created notAtAllRisky = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='notAtAllRisky', opacity=1.0, ori=0, pos=array([-0.3, -0.1]), rgb=array([255., 255., 255.]), text='Not at all risky', units='height', win=Window(...), wrapWidth=1)
+4.8264 	EXP 	Created ModeratelyRisky = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ModeratelyRisky', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([255., 255., 255.]), text='Moderately risky', units='height', win=Window(...), wrapWidth=1)
+4.8294 	EXP 	Created ExtremelyRisky = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ExtremelyRisky', opacity=1.0, ori=0, pos=array([ 0.3, -0.1]), rgb=array([255., 255., 255.]), text='Extremely risky', units='height', win=Window(...), wrapWidth=1)
+4.8379 	EXP 	Created expBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='expBenefits', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.8630 	EXP 	Created riskBenefitsScale = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='riskBenefitsScale', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.8660 	EXP 	Created noBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='noBenefits', opacity=1.0, ori=0, pos=array([-0.3, -0.1]), rgb=array([255., 255., 255.]), text='No benefits at all', units='height', win=Window(...), wrapWidth=1)
+4.8662 	EXP 	window1: mouseVisible = True
+4.8740 	EXP 	Created rating4 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating4', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.8766 	EXP 	Created greatBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='greatBenefits', opacity=1.0, ori=0, pos=array([ 0.3, -0.1]), rgb=array([255., 255., 255.]), text='Great benefits', units='height', win=Window(...), wrapWidth=1)
+4.8786 	EXP 	Created moderateBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='moderateBenefits', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([255., 255., 255.]), text='Moderate benefits', units='height', win=Window(...), wrapWidth=1)
+4.8918 	EXP 	Created big5Screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='big5Screen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.9140 	EXP 	window1: mouseVisible = True
+4.9221 	EXP 	Created rating5 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating5', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.9242 	EXP 	Created characText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='characText', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.9277 	EXP 	Created Someone = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Someone', opacity=1.0, ori=0, pos=array([-0.4 ,  0.35]), rgb=array([255., 255., 255.]), text='I am someone who…', units='height', win=Window(...), wrapWidth=1)
+4.9309 	EXP 	Created disagreeStrongly = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='disagreeStrongly', opacity=1.0, ori=0, pos=array([-0.3, -0.1]), rgb=array([255., 255., 255.]), text='Disagree\nStrongly', units='height', win=Window(...), wrapWidth=1)
+4.9332 	EXP 	Created disagreeALittle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='disagreeALittle', opacity=1.0, ori=0, pos=array([-0.15, -0.1 ]), rgb=array([255., 255., 255.]), text='Disagree\na little', units='height', win=Window(...), wrapWidth=1)
+4.9365 	EXP 	Created Neutral = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Neutral', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([255., 255., 255.]), text='Neutral;\nno opinion', units='height', win=Window(...), wrapWidth=1)
+4.9392 	EXP 	Created AgreeALittle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='AgreeALittle', opacity=1.0, ori=0, pos=array([ 0.15, -0.1 ]), rgb=array([255., 255., 255.]), text='Agree\na little', units='height', win=Window(...), wrapWidth=1)
+4.9412 	EXP 	Created AgreeStrongly = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='AgreeStrongly', opacity=1.0, ori=0, pos=array([ 0.3, -0.1]), rgb=array([255., 255., 255.]), text='Agree\nstrongly', units='height', win=Window(...), wrapWidth=1)
+4.9508 	EXP 	Created congratsText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='congratsText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.9920 	EXP 	rating: flipVert = False
+4.9920 	EXP 	rating: autoLog = True
+4.9920 	EXP 	rating2: flipVert = False
+4.9920 	EXP 	rating2: autoLog = True
+4.9920 	EXP 	rating3: flipVert = False
+4.9920 	EXP 	rating3: autoLog = True
+4.9920 	EXP 	rating4: flipVert = False
+4.9920 	EXP 	rating4: autoLog = True
+4.9920 	EXP 	rating5: flipVert = False
+4.9920 	EXP 	rating5: autoLog = True
+4.9920 	EXP 	IntroScreen: autoDraw = True
+5.3913 	DATA 	Keypress: m
+5.4114 	EXP 	IntroScreen: autoDraw = False
+5.4114 	EXP 	instructions: autoDraw = True
+5.8373 	DEBUG 	Read Excel file with pandas: spatialAnxietyScale1.xlsx
+5.8398 	DEBUG 	Clearing unnamed columns from spatialAnxietyScale1.xlsx
+5.8401 	EXP 	Imported spatialAnxietyScale1.xlsx as conditions, 8 conditions, 1 params
+5.8405 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+5.8408 	EXP 	New trial (rep=0, index=0): OrderedDict([('Scenario', 'Finding your way to an appointment in an area of a city or town with which you are not familiar. ')])
+5.8524 	EXP 	RatingScale rating: reset()
+5.8621 	DATA 	Keypress: m
+5.8767 	EXP 	instructions: autoDraw = False
+5.8767 	EXP 	scenario1: text = 'Finding your way to an appointment in an area of a city or town with which you are not familiar. '
+5.8767 	EXP 	scenario1: autoDraw = True
+5.8767 	EXP 	notAtAll: autoDraw = True
+5.8767 	EXP 	veryMuch: autoDraw = True
+5.8767 	EXP 	rating: autoDraw = True
+6.9651 	DATA 	Keypress: 2
+7.2993 	DATA 	Keypress: 2
+7.4000 	DATA 	Keypress: n
+7.6830 	DATA 	Keypress: 2
+7.7176 	DATA 	Keypress: space
+7.9144 	DATA 	Keypress: space
+7.9660 	DATA 	Keypress: 2
+8.9335 	DATA 	Mouse: Left button down, pos=(699,151)
+8.9345 	DATA 	RatingScale rating: (mouse response) rating=2
+8.9345 	DATA 	RatingScale rating: rating RT=3.081
+8.9346 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.113), (2, 3.081)]
+8.9497 	EXP 	New trial (rep=0, index=1): OrderedDict([('Scenario', 'Leaving a store that you have been to for the first time and deciding which way to turn to get to a destination.')])
+8.9635 	EXP 	RatingScale rating: reset()
+8.9673 	DATA 	Keypress: 2
+8.9791 	EXP 	scenario1: autoDraw = False
+8.9791 	EXP 	notAtAll: autoDraw = False
+8.9791 	EXP 	veryMuch: autoDraw = False
+8.9791 	EXP 	rating: autoDraw = False
+8.9791 	EXP 	scenario1: text = 'Leaving a store that you have been to for the first time and deciding which way to turn to get to a destination.'
+8.9791 	EXP 	scenario1: autoDraw = True
+8.9791 	EXP 	notAtAll: autoDraw = True
+8.9791 	EXP 	veryMuch: autoDraw = True
+8.9791 	EXP 	rating: autoDraw = True
+9.0348 	DATA 	Mouse:  Left button up, pos=(699,151)
+9.1988 	DATA 	Mouse: Left button down, pos=(699,151)
+9.2167 	DATA 	Keypress: 2
+9.2676 	DATA 	Mouse:  Left button up, pos=(699,151)
+9.5009 	DATA 	Keypress: 2
+9.5318 	DATA 	Mouse: Left button down, pos=(699,151)
+9.5325 	DATA 	RatingScale rating: (mouse response) rating=2
+9.5325 	DATA 	RatingScale rating: rating RT=0.568
+9.5325 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.004), (2, 0.568)]
+9.5464 	EXP 	New trial (rep=0, index=2): OrderedDict([('Scenario', 'Finding your way out of a complex arrangement of offices that you have visited for the first time.')])
+9.5606 	EXP 	RatingScale rating: reset()
+9.5774 	EXP 	scenario1: autoDraw = False
+9.5774 	EXP 	notAtAll: autoDraw = False
+9.5774 	EXP 	veryMuch: autoDraw = False
+9.5774 	EXP 	rating: autoDraw = False
+9.5774 	EXP 	scenario1: text = 'Finding your way out of a complex arrangement of offices that you have visited for the first time.'
+9.5774 	EXP 	scenario1: autoDraw = True
+9.5774 	EXP 	notAtAll: autoDraw = True
+9.5774 	EXP 	veryMuch: autoDraw = True
+9.5774 	EXP 	rating: autoDraw = True
+9.6303 	DATA 	Mouse:  Left button up, pos=(699,151)
+9.7494 	DATA 	Mouse: Left button down, pos=(699,151)
+9.7655 	DATA 	Keypress: 2
+9.8329 	DATA 	Mouse:  Left button up, pos=(699,151)
+9.9846 	DATA 	Mouse: Left button down, pos=(699,151)
+9.9854 	DATA 	RatingScale rating: (mouse response) rating=2
+9.9855 	DATA 	RatingScale rating: rating RT=0.424
+9.9855 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.205), (2, 0.424)]
+10.0001 	EXP 	New trial (rep=0, index=3): OrderedDict([('Scenario', 'Finding your way around in an unfamiliar mall.')])
+10.0097 	EXP 	RatingScale rating: reset()
+10.0142 	DATA 	Keypress: 2
+10.0278 	EXP 	scenario1: autoDraw = False
+10.0278 	EXP 	notAtAll: autoDraw = False
+10.0278 	EXP 	veryMuch: autoDraw = False
+10.0278 	EXP 	rating: autoDraw = False
+10.0278 	EXP 	scenario1: text = 'Finding your way around in an unfamiliar mall.'
+10.0278 	EXP 	scenario1: autoDraw = True
+10.0278 	EXP 	notAtAll: autoDraw = True
+10.0278 	EXP 	veryMuch: autoDraw = True
+10.0278 	EXP 	rating: autoDraw = True
+10.0992 	DATA 	Mouse:  Left button up, pos=(699,151)
+10.2507 	DATA 	Keypress: 2
+10.2652 	DATA 	Mouse: Left button down, pos=(699,151)
+10.3666 	DATA 	Mouse:  Left button up, pos=(699,151)
+10.4999 	DATA 	Keypress: 2
+10.5484 	DATA 	Mouse: Left button down, pos=(699,151)
+10.5490 	DATA 	RatingScale rating: (mouse response) rating=2
+10.5490 	DATA 	RatingScale rating: rating RT=0.538
+10.5491 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.004), (2, 0.538)]
+10.5640 	EXP 	New trial (rep=0, index=4): OrderedDict([('Scenario', 'Trying a new route that you think will be a shortcut without the benefit of a map.')])
+10.5760 	EXP 	RatingScale rating: reset()
+10.5943 	EXP 	scenario1: autoDraw = False
+10.5943 	EXP 	notAtAll: autoDraw = False
+10.5943 	EXP 	veryMuch: autoDraw = False
+10.5943 	EXP 	rating: autoDraw = False
+10.5943 	EXP 	scenario1: text = 'Trying a new route that you think will be a shortcut without the benefit of a map.'
+10.5943 	EXP 	scenario1: autoDraw = True
+10.5943 	EXP 	notAtAll: autoDraw = True
+10.5943 	EXP 	veryMuch: autoDraw = True
+10.5943 	EXP 	rating: autoDraw = True
+10.6475 	DATA 	Mouse:  Left button up, pos=(699,151)
+10.7665 	DATA 	Keypress: 2
+10.8153 	DATA 	Mouse: Left button down, pos=(699,151)
+10.8992 	DATA 	Mouse:  Left button up, pos=(699,151)
+11.0688 	DATA 	Keypress: 2
+11.0698 	DATA 	Mouse: Left button down, pos=(699,151)
+11.0707 	DATA 	RatingScale rating: (mouse response) rating=2
+11.0708 	DATA 	RatingScale rating: rating RT=0.494
+11.0708 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.203), (2, 0.494)]
+11.0978 	EXP 	New trial (rep=0, index=5): OrderedDict([('Scenario', 'Finding your way back to a familiar area after realizing you have made a wrong turn and become lost while driving.')])
+11.1114 	EXP 	RatingScale rating: reset()
+11.1273 	EXP 	scenario1: autoDraw = False
+11.1273 	EXP 	notAtAll: autoDraw = False
+11.1273 	EXP 	veryMuch: autoDraw = False
+11.1273 	EXP 	rating: autoDraw = False
+11.1273 	EXP 	scenario1: text = 'Finding your way back to a familiar area after realizing you have made a wrong turn and become lost while driving.'
+11.1273 	EXP 	scenario1: autoDraw = True
+11.1273 	EXP 	notAtAll: autoDraw = True
+11.1273 	EXP 	veryMuch: autoDraw = True
+11.1273 	EXP 	rating: autoDraw = True
+11.1646 	DATA 	Mouse:  Left button up, pos=(699,151)
+11.3319 	DATA 	Keypress: 2
+11.3488 	DATA 	Mouse: Left button down, pos=(699,151)
+11.4497 	DATA 	Mouse:  Left button up, pos=(699,151)
+11.6000 	DATA 	Keypress: 2
+11.6315 	DATA 	Mouse: Left button down, pos=(699,151)
+11.6323 	DATA 	RatingScale rating: (mouse response) rating=2
+11.6323 	DATA 	RatingScale rating: rating RT=0.520
+11.6323 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.221), (2, 0.52)]
+11.6475 	EXP 	New trial (rep=0, index=6): OrderedDict([('Scenario', 'Locating your car in a very large parking lot or parking garage.')])
+11.6572 	EXP 	RatingScale rating: reset()
+11.6779 	EXP 	scenario1: autoDraw = False
+11.6779 	EXP 	notAtAll: autoDraw = False
+11.6779 	EXP 	veryMuch: autoDraw = False
+11.6779 	EXP 	rating: autoDraw = False
+11.6779 	EXP 	scenario1: text = 'Locating your car in a very large parking lot or parking garage.'
+11.6779 	EXP 	scenario1: autoDraw = True
+11.6779 	EXP 	notAtAll: autoDraw = True
+11.6779 	EXP 	veryMuch: autoDraw = True
+11.6779 	EXP 	rating: autoDraw = True
+11.7302 	DATA 	Mouse:  Left button up, pos=(699,151)
+11.8654 	DATA 	Keypress: 2
+11.9148 	DATA 	Mouse: Left button down, pos=(699,151)
+12.0168 	DATA 	Mouse:  Left button up, pos=(699,151)
+12.1990 	DATA 	Keypress: 2
+12.2325 	DATA 	Mouse: Left button down, pos=(699,151)
+12.2333 	DATA 	RatingScale rating: (mouse response) rating=2
+12.2333 	DATA 	RatingScale rating: rating RT=0.575
+12.2333 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.208), (2, 0.575)]
+12.2482 	EXP 	New trial (rep=0, index=7): OrderedDict([('Scenario', 'Pointing in the direction of a place outside that someone wants to get to and has asked you for directions, when you are in a windowless room.')])
+12.2629 	EXP 	RatingScale rating: reset()
+12.2773 	EXP 	scenario1: autoDraw = False
+12.2773 	EXP 	notAtAll: autoDraw = False
+12.2773 	EXP 	veryMuch: autoDraw = False
+12.2773 	EXP 	rating: autoDraw = False
+12.2773 	EXP 	scenario1: text = 'Pointing in the direction of a place outside that someone wants to get to and has asked you for directions, when you are in a windowless room.'
+12.2773 	EXP 	scenario1: autoDraw = True
+12.2773 	EXP 	notAtAll: autoDraw = True
+12.2773 	EXP 	veryMuch: autoDraw = True
+12.2773 	EXP 	rating: autoDraw = True
+12.3323 	DATA 	Mouse:  Left button up, pos=(699,151)
+12.4645 	DATA 	Keypress: 2
+12.5343 	DATA 	Mouse: Left button down, pos=(699,151)
+12.6332 	DATA 	Mouse:  Left button up, pos=(699,151)
+12.7891 	DATA 	Keypress: 2
+12.7905 	DATA 	Mouse: Left button down, pos=(699,151)
+12.7919 	DATA 	RatingScale rating: (mouse response) rating=2
+12.7919 	DATA 	RatingScale rating: rating RT=0.528
+12.7919 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.202), (2, 0.528)]
+12.8272 	EXP 	scenario1: autoDraw = False
+12.8272 	EXP 	notAtAll: autoDraw = False
+12.8272 	EXP 	veryMuch: autoDraw = False
+12.8272 	EXP 	rating: autoDraw = False
+12.8272 	EXP 	riskBehaviorScaleScreen: autoDraw = True
+12.9460 	DATA 	Mouse:  Left button up, pos=(699,151)
+13.3674 	DEBUG 	Read Excel file with pandas: activities.xlsx
+13.3686 	DEBUG 	Clearing unnamed columns from activities.xlsx
+13.3693 	EXP 	Imported activities.xlsx as conditions, 40 conditions, 1 params
+13.3697 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+13.3700 	EXP 	New trial (rep=0, index=0): OrderedDict([('C', 'Admitting that your tastes are different from those of your friends. (S)')])
+13.3777 	EXP 	RatingScale rating2: reset()
+13.3841 	DATA 	Keypress: 2
+13.4116 	EXP 	riskBehaviorScaleScreen: autoDraw = False
+13.4116 	EXP 	activity: text = 'Admitting that your tastes are different from those of your friends. (S)'
+13.4116 	EXP 	activity: autoDraw = True
+13.4116 	EXP 	notAtAll2: autoDraw = True
+13.4116 	EXP 	ExtremelyLikely: autoDraw = True
+13.4116 	EXP 	rating2: autoDraw = True
+13.4116 	EXP 	unlikely: autoDraw = True
+13.4116 	EXP 	neutral: autoDraw = True
+13.4116 	EXP 	Likely: autoDraw = True
+30.4328 	DATA 	Keypress: escape
+30.8031 	EXP 	window1: mouseVisible = True
+30.8033 	DEBUG 	Saving data for Big5 ExperimentHandler
+30.8046 	INFO 	saved data to /Users/sabrinado/Library/CELSYS/Big5/data/_Big5_2020_Oct_29_1737.psydat
+30.8057 	INFO 	saved data to '/Users/sabrinado/Library/CELSYS/Big5/data/_Big5_2020_Oct_29_1737.csv'

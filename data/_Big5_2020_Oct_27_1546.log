@@ -1,0 +1,1380 @@
+0.2912 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.2207 	INFO 	Loaded monitor calibration from ['2020_10_12 18:18']
+3.9947 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='black', colorSpace='named', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1426e5c50>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1421dafd0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.9950 	EXP 	window1: mouseVisible = True
+3.9951 	EXP 	window1: recordFrameIntervals = False
+4.1774 	EXP 	window1: recordFrameIntervals = True
+4.3612 	DEBUG 	Screen (0) actual frame rate measured at 60.09
+4.3613 	EXP 	window1: recordFrameIntervals = False
+4.4378 	EXP 	Created IntroScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='IntroScreen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Big 5 Test', units='height', win=Window(...), wrapWidth=1)
+4.4833 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.5099 	EXP 	Created scenario1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='scenario1', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.5154 	EXP 	Created notAtAll = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='notAtAll', opacity=1.0, ori=0, pos=array([-0.4, -0.2]), rgb=array([255., 255., 255.]), text='Not at All', units='height', win=Window(...), wrapWidth=1)
+4.5204 	EXP 	Created veryMuch = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='veryMuch', opacity=1.0, ori=0, pos=array([ 0.4, -0.2]), rgb=array([255., 255., 255.]), text='Very much', units='height', win=Window(...), wrapWidth=1)
+4.5281 	EXP 	window1: mouseVisible = True
+4.5469 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.5666 	EXP 	Created riskBehaviorScaleScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='riskBehaviorScaleScreen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.5977 	EXP 	Created activity = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='activity', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.6036 	EXP 	Created notAtAll2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='notAtAll2', opacity=1.0, ori=0, pos=array([-0.4, -0.2]), rgb=array([255., 255., 255.]), text='Extremely unlikely', units='height', win=Window(...), wrapWidth=1)
+4.6131 	EXP 	Created ExtremelyLikely = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ExtremelyLikely', opacity=1.0, ori=0, pos=array([ 0.4, -0.2]), rgb=array([255., 255., 255.]), text='Extremely likely', units='height', win=Window(...), wrapWidth=1)
+4.6133 	EXP 	window1: mouseVisible = True
+4.6275 	EXP 	Created rating_2 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_2', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.6650 	EXP 	Created riskPerceptionInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='riskPerceptionInstructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.6917 	EXP 	Created riskPerceptionActivity2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='riskPerceptionActivity2', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.6919 	EXP 	window1: mouseVisible = True
+4.7001 	EXP 	Created rating_4 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_4', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.7061 	EXP 	Created notAtAllRisky = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='notAtAllRisky', opacity=1.0, ori=0, pos=array([-0.3, -0.1]), rgb=array([255., 255., 255.]), text='Not at all risky', units='height', win=Window(...), wrapWidth=1)
+4.7120 	EXP 	Created ExtremelyRisky = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ExtremelyRisky', opacity=1.0, ori=0, pos=array([ 0.3, -0.1]), rgb=array([255., 255., 255.]), text='Extremely risky\n', units='height', win=Window(...), wrapWidth=1)
+4.7151 	EXP 	Created ModeratelyRisky = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ModeratelyRisky', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([255., 255., 255.]), text='Moderately risky', units='height', win=Window(...), wrapWidth=1)
+4.7387 	EXP 	Created expBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='expBenefits', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.7626 	EXP 	Created riskBenefitsScale = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='riskBenefitsScale', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.7658 	EXP 	Created noBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='noBenefits', opacity=1.0, ori=0, pos=array([-0.4, -0.2]), rgb=array([255., 255., 255.]), text='No benefits at all', units='height', win=Window(...), wrapWidth=1)
+4.7660 	EXP 	window1: mouseVisible = True
+4.7777 	EXP 	Created rating_3 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_3', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.7804 	EXP 	Created greatBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='greatBenefits', opacity=1.0, ori=0, pos=array([ 0.4, -0.2]), rgb=array([255., 255., 255.]), text='Great benefits', units='height', win=Window(...), wrapWidth=1)
+4.7824 	EXP 	Created moderateBenefits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='moderateBenefits', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='Moderate benefits', units='height', win=Window(...), wrapWidth=1)
+4.8035 	EXP 	Created big5Screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='big5Screen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.8257 	EXP 	window1: mouseVisible = True
+4.8338 	EXP 	Created rating_5 = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_5', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+4.8381 	EXP 	Created characText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='characText', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+4.8431 	EXP 	Created Someone = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Someone', opacity=1.0, ori=0, pos=array([-0.33,  0.2 ]), rgb=array([255., 255., 255.]), text='I am someone who…', units='height', win=Window(...), wrapWidth=1)
+4.8486 	EXP 	Created disagreeStrongly = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='disagreeStrongly', opacity=1.0, ori=0, pos=array([-0.4, -0.2]), rgb=array([255., 255., 255.]), text='Disagree\nStrongly', units='height', win=Window(...), wrapWidth=1)
+4.8533 	EXP 	Created disagreeALittle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='disagreeALittle', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([255., 255., 255.]), text='Disagree\na little', units='height', win=Window(...), wrapWidth=1)
+4.8602 	EXP 	Created Neutral = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Neutral', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='Neutral;\nno opinion', units='height', win=Window(...), wrapWidth=1)
+4.8629 	EXP 	Created AgreeALittle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='AgreeALittle', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([255., 255., 255.]), text='Agree\na little', units='height', win=Window(...), wrapWidth=1)
+4.8651 	EXP 	Created AgreeStrongly = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='AgreeStrongly', opacity=1.0, ori=0, pos=array([ 0.4, -0.2]), rgb=array([255., 255., 255.]), text='Agree\nstrongly', units='height', win=Window(...), wrapWidth=1)
+4.8755 	EXP 	Created congratsText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='congratsText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.9139 	EXP 	rating: flipVert = False
+4.9139 	EXP 	rating: autoLog = True
+4.9139 	EXP 	rating_2: flipVert = False
+4.9139 	EXP 	rating_2: autoLog = True
+4.9139 	EXP 	rating_4: flipVert = False
+4.9139 	EXP 	rating_4: autoLog = True
+4.9139 	EXP 	rating_3: flipVert = False
+4.9139 	EXP 	rating_3: autoLog = True
+4.9139 	EXP 	rating_5: flipVert = False
+4.9139 	EXP 	rating_5: autoLog = True
+4.9139 	EXP 	IntroScreen: autoDraw = True
+5.3126 	DATA 	Keypress: space
+5.3309 	EXP 	IntroScreen: autoDraw = False
+5.3309 	EXP 	instructions: autoDraw = True
+5.7407 	DEBUG 	Read Excel file with pandas: spatialAnxietyScale1.xlsx
+5.7431 	DEBUG 	Clearing unnamed columns from spatialAnxietyScale1.xlsx
+5.7436 	EXP 	Imported spatialAnxietyScale1.xlsx as conditions, 8 conditions, 1 params
+5.7439 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+5.7442 	EXP 	New trial (rep=0, index=0): OrderedDict([('Scenario', 'Finding your way to an appointment in an area of a city or town with which you are not familiar. ')])
+5.7558 	EXP 	RatingScale rating: reset()
+5.7766 	DATA 	Keypress: space
+5.7970 	EXP 	instructions: autoDraw = False
+5.7970 	EXP 	scenario1: text = 'Finding your way to an appointment in an area of a city or town with which you are not familiar. '
+5.7970 	EXP 	scenario1: autoDraw = True
+5.7970 	EXP 	notAtAll: autoDraw = True
+5.7970 	EXP 	veryMuch: autoDraw = True
+5.7970 	EXP 	rating: autoDraw = True
+5.9363 	DATA 	Keypress: space
+6.6859 	DATA 	Mouse: Left button down, pos=(697,248)
+6.7537 	DATA 	Mouse:  Left button up, pos=(698,248)
+7.1858 	DATA 	Mouse: Left button down, pos=(708,179)
+7.1871 	DATA 	RatingScale rating: (mouse response) rating=3
+7.1871 	DATA 	RatingScale rating: rating RT=1.430
+7.1871 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.93), (3, 1.43)]
+7.2020 	EXP 	New trial (rep=0, index=1): OrderedDict([('Scenario', 'Finding your way back to a familiar area after realizing you have made a wrong turn and become lost while driving.')])
+7.2222 	EXP 	RatingScale rating: reset()
+7.2477 	EXP 	scenario1: autoDraw = False
+7.2477 	EXP 	notAtAll: autoDraw = False
+7.2477 	EXP 	veryMuch: autoDraw = False
+7.2477 	EXP 	rating: autoDraw = False
+7.2477 	EXP 	scenario1: text = 'Finding your way back to a familiar area after realizing you have made a wrong turn and become lost while driving.'
+7.2477 	EXP 	scenario1: autoDraw = True
+7.2477 	EXP 	notAtAll: autoDraw = True
+7.2477 	EXP 	veryMuch: autoDraw = True
+7.2477 	EXP 	rating: autoDraw = True
+7.2689 	DATA 	Mouse:  Left button up, pos=(708,178)
+7.5854 	DATA 	Mouse: Left button down, pos=(708,256)
+7.7368 	DATA 	Mouse:  Left button up, pos=(708,256)
+8.1335 	DATA 	Mouse: Left button down, pos=(707,191)
+8.2204 	DATA 	Mouse:  Left button up, pos=(707,190)
+8.6708 	DATA 	Mouse: Left button down, pos=(709,177)
+8.6720 	DATA 	RatingScale rating: (mouse response) rating=3
+8.6720 	DATA 	RatingScale rating: rating RT=1.449
+8.6720 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.363), (3, 1.449)]
+8.6864 	EXP 	New trial (rep=0, index=2): OrderedDict([('Scenario', 'Trying a new route that you think will be a shortcut without the benefit of a map.')])
+8.6993 	EXP 	RatingScale rating: reset()
+8.7142 	EXP 	scenario1: autoDraw = False
+8.7142 	EXP 	notAtAll: autoDraw = False
+8.7142 	EXP 	veryMuch: autoDraw = False
+8.7142 	EXP 	rating: autoDraw = False
+8.7142 	EXP 	scenario1: text = 'Trying a new route that you think will be a shortcut without the benefit of a map.'
+8.7142 	EXP 	scenario1: autoDraw = True
+8.7142 	EXP 	notAtAll: autoDraw = True
+8.7142 	EXP 	veryMuch: autoDraw = True
+8.7142 	EXP 	rating: autoDraw = True
+8.7669 	DATA 	Mouse:  Left button up, pos=(709,177)
+8.9675 	DATA 	Keypress: 3
+9.7539 	DATA 	Keypress: 3
+10.1516 	DATA 	Mouse: Left button down, pos=(709,167)
+10.1524 	DATA 	RatingScale rating: (mouse response) rating=3
+10.1524 	DATA 	RatingScale rating: rating RT=1.452
+10.1525 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.269), (3, 1.452)]
+10.1671 	EXP 	New trial (rep=0, index=3): OrderedDict([('Scenario', 'Leaving a store that you have been to for the first time and deciding which way to turn to get to a destination.')])
+10.1799 	EXP 	RatingScale rating: reset()
+10.1982 	EXP 	scenario1: autoDraw = False
+10.1982 	EXP 	notAtAll: autoDraw = False
+10.1982 	EXP 	veryMuch: autoDraw = False
+10.1982 	EXP 	rating: autoDraw = False
+10.1982 	EXP 	scenario1: text = 'Leaving a store that you have been to for the first time and deciding which way to turn to get to a destination.'
+10.1982 	EXP 	scenario1: autoDraw = True
+10.1982 	EXP 	notAtAll: autoDraw = True
+10.1982 	EXP 	veryMuch: autoDraw = True
+10.1982 	EXP 	rating: autoDraw = True
+10.2524 	DATA 	Mouse:  Left button up, pos=(709,167)
+10.8191 	DATA 	Keypress: 3
+11.1699 	DATA 	Keypress: space
+11.8864 	DATA 	Mouse: Left button down, pos=(709,167)
+11.8873 	DATA 	RatingScale rating: (mouse response) rating=3
+11.8873 	DATA 	RatingScale rating: rating RT=1.707
+11.8873 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.639), (3, 1.706)]
+11.9015 	EXP 	New trial (rep=0, index=4): OrderedDict([('Scenario', 'Finding your way out of a complex arrangement of offices that you have visited for the first time.')])
+11.9146 	EXP 	RatingScale rating: reset()
+11.9308 	EXP 	scenario1: autoDraw = False
+11.9308 	EXP 	notAtAll: autoDraw = False
+11.9308 	EXP 	veryMuch: autoDraw = False
+11.9308 	EXP 	rating: autoDraw = False
+11.9308 	EXP 	scenario1: text = 'Finding your way out of a complex arrangement of offices that you have visited for the first time.'
+11.9308 	EXP 	scenario1: autoDraw = True
+11.9308 	EXP 	notAtAll: autoDraw = True
+11.9308 	EXP 	veryMuch: autoDraw = True
+11.9308 	EXP 	rating: autoDraw = True
+11.9674 	DATA 	Mouse:  Left button up, pos=(709,167)
+12.3024 	DATA 	Keypress: 3
+12.6350 	DATA 	Mouse: Left button down, pos=(709,167)
+12.6358 	DATA 	RatingScale rating: (mouse response) rating=3
+12.6358 	DATA 	RatingScale rating: rating RT=0.720
+12.6359 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.388), (3, 0.72)]
+12.6491 	EXP 	New trial (rep=0, index=5): OrderedDict([('Scenario', 'Pointing in the direction of a place outside that someone wants to get to and has asked you for directions, when you are in a windowless room.')])
+12.6640 	EXP 	RatingScale rating: reset()
+12.6812 	EXP 	scenario1: autoDraw = False
+12.6812 	EXP 	notAtAll: autoDraw = False
+12.6812 	EXP 	veryMuch: autoDraw = False
+12.6812 	EXP 	rating: autoDraw = False
+12.6812 	EXP 	scenario1: text = 'Pointing in the direction of a place outside that someone wants to get to and has asked you for directions, when you are in a windowless room.'
+12.6812 	EXP 	scenario1: autoDraw = True
+12.6812 	EXP 	notAtAll: autoDraw = True
+12.6812 	EXP 	veryMuch: autoDraw = True
+12.6812 	EXP 	rating: autoDraw = True
+12.7353 	DATA 	Mouse:  Left button up, pos=(709,167)
+12.9187 	DATA 	Keypress: 3
+13.2377 	DATA 	Mouse: Left button down, pos=(709,166)
+13.2389 	DATA 	RatingScale rating: (mouse response) rating=3
+13.2389 	DATA 	RatingScale rating: rating RT=0.574
+13.2389 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.255), (3, 0.574)]
+13.2535 	EXP 	New trial (rep=0, index=6): OrderedDict([('Scenario', 'Finding your way around in an unfamiliar mall.')])
+13.2634 	EXP 	RatingScale rating: reset()
+13.2810 	EXP 	scenario1: autoDraw = False
+13.2810 	EXP 	notAtAll: autoDraw = False
+13.2810 	EXP 	veryMuch: autoDraw = False
+13.2810 	EXP 	rating: autoDraw = False
+13.2810 	EXP 	scenario1: text = 'Finding your way around in an unfamiliar mall.'
+13.2810 	EXP 	scenario1: autoDraw = True
+13.2810 	EXP 	notAtAll: autoDraw = True
+13.2810 	EXP 	veryMuch: autoDraw = True
+13.2810 	EXP 	rating: autoDraw = True
+13.3349 	DATA 	Mouse:  Left button up, pos=(709,166)
+13.3692 	DATA 	Keypress: 3
+13.6872 	DATA 	Mouse: Left button down, pos=(709,166)
+13.6884 	DATA 	RatingScale rating: (mouse response) rating=3
+13.6884 	DATA 	RatingScale rating: rating RT=0.424
+13.6884 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.106), (3, 0.424)]
+13.7025 	EXP 	New trial (rep=0, index=7): OrderedDict([('Scenario', 'Locating your car in a very large parking lot or parking garage.')])
+13.7128 	EXP 	RatingScale rating: reset()
+13.7307 	EXP 	scenario1: autoDraw = False
+13.7307 	EXP 	notAtAll: autoDraw = False
+13.7307 	EXP 	veryMuch: autoDraw = False
+13.7307 	EXP 	rating: autoDraw = False
+13.7307 	EXP 	scenario1: text = 'Locating your car in a very large parking lot or parking garage.'
+13.7307 	EXP 	scenario1: autoDraw = True
+13.7307 	EXP 	notAtAll: autoDraw = True
+13.7307 	EXP 	veryMuch: autoDraw = True
+13.7307 	EXP 	rating: autoDraw = True
+13.8020 	DATA 	Mouse:  Left button up, pos=(709,166)
+13.8172 	DATA 	Keypress: 3
+14.1368 	DATA 	Mouse: Left button down, pos=(709,166)
+14.1375 	DATA 	RatingScale rating: (mouse response) rating=3
+14.1376 	DATA 	RatingScale rating: rating RT=0.424
+14.1376 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 0.104), (3, 0.424)]
+14.1974 	EXP 	scenario1: autoDraw = False
+14.1974 	EXP 	notAtAll: autoDraw = False
+14.1974 	EXP 	veryMuch: autoDraw = False
+14.1974 	EXP 	rating: autoDraw = False
+14.1974 	EXP 	riskBehaviorScaleScreen: autoDraw = True
+14.2508 	DATA 	Keypress: 3
+14.3154 	DEBUG 	Read Excel file with pandas: activities.xlsx
+14.3166 	DEBUG 	Clearing unnamed columns from activities.xlsx
+14.3174 	EXP 	Imported activities.xlsx as conditions, 40 conditions, 1 params
+14.3178 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+14.3180 	EXP 	New trial (rep=0, index=0): OrderedDict([('C', 'Admitting that your tastes are different from those of your friends. (S)')])
+14.3271 	EXP 	RatingScale rating_2: reset()
+14.3324 	DATA 	Mouse:  Left button up, pos=(709,166)
+14.3485 	EXP 	riskBehaviorScaleScreen: autoDraw = False
+14.3485 	EXP 	activity: text = 'Admitting that your tastes are different from those of your friends. (S)'
+14.3485 	EXP 	activity: autoDraw = True
+14.3485 	EXP 	notAtAll2: autoDraw = True
+14.3485 	EXP 	ExtremelyLikely: autoDraw = True
+14.3485 	EXP 	rating_2: autoDraw = True
+14.8209 	DATA 	Mouse: Left button down, pos=(709,166)
+14.8218 	DATA 	RatingScale rating_2: (mouse response) rating=3
+14.8219 	DATA 	RatingScale rating_2: rating RT=0.494
+14.8219 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.005), (3, 0.494)]
+14.8359 	EXP 	New trial (rep=0, index=1): OrderedDict([('C', 'Going camping in the wilderness, beyond the civilization of a campground. (R) ')])
+14.8460 	EXP 	RatingScale rating_2: reset()
+14.8497 	DATA 	Keypress: 3
+14.8643 	EXP 	activity: autoDraw = False
+14.8643 	EXP 	notAtAll2: autoDraw = False
+14.8643 	EXP 	ExtremelyLikely: autoDraw = False
+14.8643 	EXP 	rating_2: autoDraw = False
+14.8643 	EXP 	activity: text = 'Going camping in the wilderness, beyond the civilization of a campground. (R) '
+14.8643 	EXP 	activity: autoDraw = True
+14.8643 	EXP 	notAtAll2: autoDraw = True
+14.8643 	EXP 	ExtremelyLikely: autoDraw = True
+14.8643 	EXP 	rating_2: autoDraw = True
+14.8843 	DATA 	Mouse:  Left button up, pos=(709,166)
+15.0705 	DATA 	Mouse: Left button down, pos=(709,166)
+15.1531 	DATA 	Mouse:  Left button up, pos=(709,166)
+15.2519 	DATA 	Keypress: 3
+15.3194 	DATA 	Mouse: Left button down, pos=(709,166)
+15.3201 	DATA 	RatingScale rating_2: (mouse response) rating=3
+15.3201 	DATA 	RatingScale rating_2: rating RT=0.473
+15.3201 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.004), (3, 0.473)]
+15.3339 	EXP 	New trial (rep=0, index=2): OrderedDict([('C', "Betting a day's income at the horse races. (G)")])
+15.3438 	EXP 	RatingScale rating_2: reset()
+15.3642 	EXP 	activity: autoDraw = False
+15.3642 	EXP 	notAtAll2: autoDraw = False
+15.3642 	EXP 	ExtremelyLikely: autoDraw = False
+15.3642 	EXP 	rating_2: autoDraw = False
+15.3642 	EXP 	activity: text = "Betting a day's income at the horse races. (G)"
+15.3642 	EXP 	activity: autoDraw = True
+15.3642 	EXP 	notAtAll2: autoDraw = True
+15.3642 	EXP 	ExtremelyLikely: autoDraw = True
+15.3642 	EXP 	rating_2: autoDraw = True
+15.3854 	DATA 	Mouse:  Left button up, pos=(709,166)
+15.5593 	DATA 	Keypress: 3
+15.5605 	DATA 	Mouse: Left button down, pos=(709,166)
+15.7034 	DATA 	Mouse:  Left button up, pos=(709,166)
+15.9186 	DATA 	Mouse: Left button down, pos=(709,166)
+15.9195 	DATA 	RatingScale rating_2: (mouse response) rating=3
+15.9195 	DATA 	RatingScale rating_2: rating RT=0.575
+15.9195 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.217), (3, 0.575)]
+15.9331 	EXP 	New trial (rep=0, index=3): OrderedDict([('C', 'Buying an illegal drug for your own use. (H)')])
+15.9405 	EXP 	RatingScale rating_2: reset()
+15.9444 	DATA 	Keypress: 3
+15.9641 	EXP 	activity: autoDraw = False
+15.9641 	EXP 	notAtAll2: autoDraw = False
+15.9641 	EXP 	ExtremelyLikely: autoDraw = False
+15.9641 	EXP 	rating_2: autoDraw = False
+15.9641 	EXP 	activity: text = 'Buying an illegal drug for your own use. (H)'
+15.9641 	EXP 	activity: autoDraw = True
+15.9641 	EXP 	notAtAll2: autoDraw = True
+15.9641 	EXP 	ExtremelyLikely: autoDraw = True
+15.9641 	EXP 	rating_2: autoDraw = True
+16.0193 	DATA 	Mouse:  Left button up, pos=(709,166)
+16.2697 	DATA 	Keypress: 3
+16.3002 	DATA 	Mouse: Left button down, pos=(709,166)
+16.3522 	DATA 	RatingScale rating_2: (mouse response) rating=3
+16.3522 	DATA 	RatingScale rating_2: rating RT=0.411
+16.3522 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.004), (3, 0.411)]
+16.3670 	EXP 	New trial (rep=0, index=4): OrderedDict([('C', 'Cheating on an exam. (E)')])
+16.3770 	EXP 	RatingScale rating_2: reset()
+16.3979 	EXP 	activity: autoDraw = False
+16.3979 	EXP 	notAtAll2: autoDraw = False
+16.3979 	EXP 	ExtremelyLikely: autoDraw = False
+16.3979 	EXP 	rating_2: autoDraw = False
+16.3979 	EXP 	activity: text = 'Cheating on an exam. (E)'
+16.3979 	EXP 	activity: autoDraw = True
+16.3979 	EXP 	notAtAll2: autoDraw = True
+16.3979 	EXP 	ExtremelyLikely: autoDraw = True
+16.3979 	EXP 	rating_2: autoDraw = True
+16.4022 	DATA 	Mouse:  Left button up, pos=(709,166)
+16.6184 	DATA 	Keypress: 3
+16.6351 	DATA 	Mouse: Left button down, pos=(709,166)
+16.7524 	DATA 	Mouse:  Left button up, pos=(709,166)
+16.9523 	DATA 	Keypress: 3
+16.9672 	DATA 	Mouse: Left button down, pos=(709,166)
+16.9677 	DATA 	RatingScale rating_2: (mouse response) rating=3
+16.9678 	DATA 	RatingScale rating_2: rating RT=0.590
+16.9678 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.241), (3, 0.59)]
+16.9825 	EXP 	New trial (rep=0, index=5): OrderedDict([('C', 'Chasing a tornado or hurricane by car to take dramatic photos. (R)')])
+16.9919 	EXP 	RatingScale rating_2: reset()
+17.0141 	EXP 	activity: autoDraw = False
+17.0141 	EXP 	notAtAll2: autoDraw = False
+17.0141 	EXP 	ExtremelyLikely: autoDraw = False
+17.0141 	EXP 	rating_2: autoDraw = False
+17.0141 	EXP 	activity: text = 'Chasing a tornado or hurricane by car to take dramatic photos. (R)'
+17.0141 	EXP 	activity: autoDraw = True
+17.0141 	EXP 	notAtAll2: autoDraw = True
+17.0141 	EXP 	ExtremelyLikely: autoDraw = True
+17.0141 	EXP 	rating_2: autoDraw = True
+17.0700 	DATA 	Mouse:  Left button up, pos=(709,166)
+17.2523 	DATA 	Keypress: 3
+17.3201 	DATA 	Mouse: Left button down, pos=(709,166)
+17.4029 	DATA 	RatingScale rating_2: (mouse response) rating=3
+17.4030 	DATA 	RatingScale rating_2: rating RT=0.410
+17.4030 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.261), (3, 0.41)]
+17.4174 	EXP 	New trial (rep=0, index=6): OrderedDict([('C', 'Investing 10% of your annual income in a moderate growth mutual fund. (I)')])
+17.4307 	EXP 	RatingScale rating_2: reset()
+17.4344 	DATA 	Mouse:  Left button up, pos=(709,166)
+17.4476 	EXP 	activity: autoDraw = False
+17.4476 	EXP 	notAtAll2: autoDraw = False
+17.4476 	EXP 	ExtremelyLikely: autoDraw = False
+17.4476 	EXP 	rating_2: autoDraw = False
+17.4476 	EXP 	activity: text = 'Investing 10% of your annual income in a moderate growth mutual fund. (I)'
+17.4476 	EXP 	activity: autoDraw = True
+17.4476 	EXP 	notAtAll2: autoDraw = True
+17.4476 	EXP 	ExtremelyLikely: autoDraw = True
+17.4476 	EXP 	rating_2: autoDraw = True
+17.5511 	DATA 	Keypress: 3
+17.6345 	DATA 	Mouse: Left button down, pos=(709,166)
+17.7531 	DATA 	Mouse:  Left button up, pos=(709,166)
+17.9555 	DATA 	Keypress: 3
+17.9564 	DATA 	Mouse: Left button down, pos=(709,166)
+17.9574 	DATA 	RatingScale rating_2: (mouse response) rating=3
+17.9575 	DATA 	RatingScale rating_2: rating RT=0.526
+17.9575 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.12), (3, 0.526)]
+17.9846 	EXP 	New trial (rep=0, index=7): OrderedDict([('C', 'Consuming five or more servings of alcohol in a single evening. (H)')])
+17.9969 	EXP 	RatingScale rating_2: reset()
+18.0146 	EXP 	activity: autoDraw = False
+18.0146 	EXP 	notAtAll2: autoDraw = False
+18.0146 	EXP 	ExtremelyLikely: autoDraw = False
+18.0146 	EXP 	rating_2: autoDraw = False
+18.0146 	EXP 	activity: text = 'Consuming five or more servings of alcohol in a single evening. (H)'
+18.0146 	EXP 	activity: autoDraw = True
+18.0146 	EXP 	notAtAll2: autoDraw = True
+18.0146 	EXP 	ExtremelyLikely: autoDraw = True
+18.0146 	EXP 	rating_2: autoDraw = True
+18.0688 	DATA 	Mouse:  Left button up, pos=(709,166)
+18.2855 	DATA 	Keypress: 3
+18.3178 	DATA 	Mouse: Left button down, pos=(709,166)
+18.4021 	DATA 	RatingScale rating_2: (mouse response) rating=3
+18.4021 	DATA 	RatingScale rating_2: rating RT=0.404
+18.4022 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.291), (3, 0.404)]
+18.4169 	EXP 	New trial (rep=0, index=8): OrderedDict([('C', 'Cheating by a significant amount on your income tax return. (E)')])
+18.4272 	EXP 	RatingScale rating_2: reset()
+18.4301 	DATA 	Mouse:  Left button up, pos=(709,166)
+18.4476 	EXP 	activity: autoDraw = False
+18.4476 	EXP 	notAtAll2: autoDraw = False
+18.4476 	EXP 	ExtremelyLikely: autoDraw = False
+18.4476 	EXP 	rating_2: autoDraw = False
+18.4476 	EXP 	activity: text = 'Cheating by a significant amount on your income tax return. (E)'
+18.4476 	EXP 	activity: autoDraw = True
+18.4476 	EXP 	notAtAll2: autoDraw = True
+18.4476 	EXP 	ExtremelyLikely: autoDraw = True
+18.4476 	EXP 	rating_2: autoDraw = True
+18.7860 	DATA 	Keypress: 3
+18.8515 	DATA 	Mouse: Left button down, pos=(709,166)
+18.8522 	DATA 	RatingScale rating_2: (mouse response) rating=3
+18.8523 	DATA 	RatingScale rating_2: rating RT=0.424
+18.8523 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.359), (3, 0.424)]
+18.8663 	EXP 	New trial (rep=0, index=9): OrderedDict([('C', 'Disagreeing with your father on a major issue. (S)')])
+18.8762 	EXP 	RatingScale rating_2: reset()
+18.8969 	EXP 	activity: autoDraw = False
+18.8969 	EXP 	notAtAll2: autoDraw = False
+18.8969 	EXP 	ExtremelyLikely: autoDraw = False
+18.8969 	EXP 	rating_2: autoDraw = False
+18.8969 	EXP 	activity: text = 'Disagreeing with your father on a major issue. (S)'
+18.8969 	EXP 	activity: autoDraw = True
+18.8969 	EXP 	notAtAll2: autoDraw = True
+18.8969 	EXP 	ExtremelyLikely: autoDraw = True
+18.8969 	EXP 	rating_2: autoDraw = True
+18.9520 	DATA 	Mouse:  Left button up, pos=(709,166)
+19.2688 	DATA 	Keypress: 3
+19.3019 	DATA 	Mouse: Left button down, pos=(709,166)
+19.3025 	DATA 	RatingScale rating_2: (mouse response) rating=3
+19.3026 	DATA 	RatingScale rating_2: rating RT=0.425
+19.3026 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.393), (3, 0.425)]
+19.3165 	EXP 	New trial (rep=0, index=10): OrderedDict([('C', "Betting a day's income at a high stake poker game. (G)")])
+19.3263 	EXP 	RatingScale rating_2: reset()
+19.3480 	EXP 	activity: autoDraw = False
+19.3480 	EXP 	notAtAll2: autoDraw = False
+19.3480 	EXP 	ExtremelyLikely: autoDraw = False
+19.3480 	EXP 	rating_2: autoDraw = False
+19.3480 	EXP 	activity: text = "Betting a day's income at a high stake poker game. (G)"
+19.3480 	EXP 	activity: autoDraw = True
+19.3480 	EXP 	notAtAll2: autoDraw = True
+19.3480 	EXP 	ExtremelyLikely: autoDraw = True
+19.3480 	EXP 	rating_2: autoDraw = True
+19.4353 	DATA 	Mouse:  Left button up, pos=(709,166)
+19.7017 	DATA 	Keypress: 3
+19.7520 	DATA 	Mouse: Left button down, pos=(709,166)
+19.7528 	DATA 	RatingScale rating_2: (mouse response) rating=3
+19.7528 	DATA 	RatingScale rating_2: rating RT=0.426
+19.7529 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.375), (3, 0.425)]
+19.7662 	EXP 	New trial (rep=0, index=11): OrderedDict([('C', 'Having an affair with a married man or woman. (E)')])
+19.7750 	EXP 	RatingScale rating_2: reset()
+19.7977 	EXP 	activity: autoDraw = False
+19.7977 	EXP 	notAtAll2: autoDraw = False
+19.7977 	EXP 	ExtremelyLikely: autoDraw = False
+19.7977 	EXP 	rating_2: autoDraw = False
+19.7977 	EXP 	activity: text = 'Having an affair with a married man or woman. (E)'
+19.7977 	EXP 	activity: autoDraw = True
+19.7977 	EXP 	notAtAll2: autoDraw = True
+19.7977 	EXP 	ExtremelyLikely: autoDraw = True
+19.7977 	EXP 	rating_2: autoDraw = True
+19.8691 	DATA 	Mouse:  Left button up, pos=(709,166)
+20.2528 	DATA 	Keypress: 3
+20.2702 	DATA 	Mouse: Left button down, pos=(709,166)
+20.2709 	DATA 	RatingScale rating_2: (mouse response) rating=3
+20.2709 	DATA 	RatingScale rating_2: rating RT=0.495
+20.2709 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.478), (3, 0.495)]
+20.2831 	EXP 	New trial (rep=0, index=12): OrderedDict([('C', "Forging somebody's signature. (E)")])
+20.2896 	EXP 	RatingScale rating_2: reset()
+20.3144 	EXP 	activity: autoDraw = False
+20.3144 	EXP 	notAtAll2: autoDraw = False
+20.3144 	EXP 	ExtremelyLikely: autoDraw = False
+20.3144 	EXP 	rating_2: autoDraw = False
+20.3144 	EXP 	activity: text = "Forging somebody's signature. (E)"
+20.3144 	EXP 	activity: autoDraw = True
+20.3144 	EXP 	notAtAll2: autoDraw = True
+20.3144 	EXP 	ExtremelyLikely: autoDraw = True
+20.3144 	EXP 	rating_2: autoDraw = True
+20.3695 	DATA 	Mouse:  Left button up, pos=(709,166)
+20.7507 	DATA 	Mouse: Left button down, pos=(709,166)
+20.7693 	DATA 	Keypress: 3
+20.7704 	DATA 	RatingScale rating_2: (mouse response) rating=3
+20.7704 	DATA 	RatingScale rating_2: rating RT=0.480
+20.7704 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.48)]
+20.7829 	EXP 	New trial (rep=0, index=13): OrderedDict([('C', "Passing off somebody else's work as your own. (E)")])
+20.7875 	EXP 	RatingScale rating_2: reset()
+20.7996 	EXP 	activity: autoDraw = False
+20.7996 	EXP 	notAtAll2: autoDraw = False
+20.7996 	EXP 	ExtremelyLikely: autoDraw = False
+20.7996 	EXP 	rating_2: autoDraw = False
+20.7996 	EXP 	activity: text = "Passing off somebody else's work as your own. (E)"
+20.7996 	EXP 	activity: autoDraw = True
+20.7996 	EXP 	notAtAll2: autoDraw = True
+20.7996 	EXP 	ExtremelyLikely: autoDraw = True
+20.7996 	EXP 	rating_2: autoDraw = True
+20.8683 	DATA 	Mouse:  Left button up, pos=(709,166)
+21.2166 	DATA 	Mouse: Left button down, pos=(709,166)
+21.2186 	DATA 	Keypress: 3
+21.2196 	DATA 	RatingScale rating_2: (mouse response) rating=3
+21.2197 	DATA 	RatingScale rating_2: rating RT=0.431
+21.2197 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.431)]
+21.2330 	EXP 	New trial (rep=0, index=14): OrderedDict([('C', 'Going on a vacation in a third-world country without prearranged travel and hotel accommodations. (R)')])
+21.2416 	EXP 	RatingScale rating_2: reset()
+21.2644 	EXP 	activity: autoDraw = False
+21.2644 	EXP 	notAtAll2: autoDraw = False
+21.2644 	EXP 	ExtremelyLikely: autoDraw = False
+21.2644 	EXP 	rating_2: autoDraw = False
+21.2644 	EXP 	activity: text = 'Going on a vacation in a third-world country without prearranged travel and hotel accommodations. (R)'
+21.2644 	EXP 	activity: autoDraw = True
+21.2644 	EXP 	notAtAll2: autoDraw = True
+21.2644 	EXP 	ExtremelyLikely: autoDraw = True
+21.2644 	EXP 	rating_2: autoDraw = True
+21.3522 	DATA 	Mouse:  Left button up, pos=(709,166)
+21.6521 	DATA 	Mouse: Left button down, pos=(709,166)
+21.6701 	DATA 	Keypress: 3
+21.6714 	DATA 	RatingScale rating_2: (mouse response) rating=3
+21.6714 	DATA 	RatingScale rating_2: rating RT=0.429
+21.6715 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.429)]
+21.6840 	EXP 	New trial (rep=0, index=15): OrderedDict([('C', 'Arguing with a friend about an issue on which he or she has a very different opinion. (S) ')])
+21.6904 	EXP 	RatingScale rating_2: reset()
+21.7148 	EXP 	activity: autoDraw = False
+21.7148 	EXP 	notAtAll2: autoDraw = False
+21.7148 	EXP 	ExtremelyLikely: autoDraw = False
+21.7148 	EXP 	rating_2: autoDraw = False
+21.7148 	EXP 	activity: text = 'Arguing with a friend about an issue on which he or she has a very different opinion. (S) '
+21.7148 	EXP 	activity: autoDraw = True
+21.7148 	EXP 	notAtAll2: autoDraw = True
+21.7148 	EXP 	ExtremelyLikely: autoDraw = True
+21.7148 	EXP 	rating_2: autoDraw = True
+21.7843 	DATA 	Mouse:  Left button up, pos=(709,166)
+22.0567 	DATA 	Keypress: 3
+22.0581 	DATA 	Mouse: Left button down, pos=(709,166)
+22.1050 	DATA 	RatingScale rating_2: (mouse response) rating=3
+22.1050 	DATA 	RatingScale rating_2: rating RT=0.414
+22.1050 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.368), (3, 0.414)]
+22.1189 	EXP 	New trial (rep=0, index=16): OrderedDict([('C', 'Going down a ski run that is beyond your ability or closed. (R)')])
+22.1287 	EXP 	RatingScale rating_2: reset()
+22.1474 	EXP 	activity: autoDraw = False
+22.1474 	EXP 	notAtAll2: autoDraw = False
+22.1474 	EXP 	ExtremelyLikely: autoDraw = False
+22.1474 	EXP 	rating_2: autoDraw = False
+22.1474 	EXP 	activity: text = 'Going down a ski run that is beyond your ability or closed. (R)'
+22.1474 	EXP 	activity: autoDraw = True
+22.1474 	EXP 	notAtAll2: autoDraw = True
+22.1474 	EXP 	ExtremelyLikely: autoDraw = True
+22.1474 	EXP 	rating_2: autoDraw = True
+22.1684 	DATA 	Mouse:  Left button up, pos=(709,166)
+22.4357 	DATA 	Keypress: 3
+22.4517 	DATA 	Mouse: Left button down, pos=(709,166)
+22.5355 	DATA 	RatingScale rating_2: (mouse response) rating=3
+22.5356 	DATA 	RatingScale rating_2: rating RT=0.406
+22.5356 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.307), (3, 0.406)]
+22.5502 	EXP 	New trial (rep=0, index=17): OrderedDict([('C', 'Investing 5% of your annual income in a very speculative stock. (I)')])
+22.5608 	EXP 	RatingScale rating_2: reset()
+22.5803 	EXP 	activity: autoDraw = False
+22.5803 	EXP 	notAtAll2: autoDraw = False
+22.5803 	EXP 	ExtremelyLikely: autoDraw = False
+22.5803 	EXP 	rating_2: autoDraw = False
+22.5803 	EXP 	activity: text = 'Investing 5% of your annual income in a very speculative stock. (I)'
+22.5803 	EXP 	activity: autoDraw = True
+22.5803 	EXP 	notAtAll2: autoDraw = True
+22.5803 	EXP 	ExtremelyLikely: autoDraw = True
+22.5803 	EXP 	rating_2: autoDraw = True
+22.5838 	DATA 	Mouse:  Left button up, pos=(709,166)
+22.8191 	DATA 	Keypress: 3
+22.8517 	DATA 	Mouse: Left button down, pos=(709,166)
+22.9684 	DATA 	RatingScale rating_2: (mouse response) rating=3
+22.9684 	DATA 	RatingScale rating_2: rating RT=0.407
+22.9684 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.258), (3, 0.407)]
+22.9831 	EXP 	New trial (rep=0, index=18): OrderedDict([('C', 'Approaching your boss to ask for a raise. (S)')])
+22.9909 	EXP 	RatingScale rating_2: reset()
+22.9935 	DATA 	Mouse:  Left button up, pos=(709,166)
+23.0143 	EXP 	activity: autoDraw = False
+23.0143 	EXP 	notAtAll2: autoDraw = False
+23.0143 	EXP 	ExtremelyLikely: autoDraw = False
+23.0143 	EXP 	rating_2: autoDraw = False
+23.0143 	EXP 	activity: text = 'Approaching your boss to ask for a raise. (S)'
+23.0143 	EXP 	activity: autoDraw = True
+23.0143 	EXP 	notAtAll2: autoDraw = True
+23.0143 	EXP 	ExtremelyLikely: autoDraw = True
+23.0143 	EXP 	rating_2: autoDraw = True
+23.2346 	DATA 	Keypress: 3
+23.2866 	DATA 	Mouse: Left button down, pos=(709,166)
+23.4035 	DATA 	RatingScale rating_2: (mouse response) rating=3
+23.4035 	DATA 	RatingScale rating_2: rating RT=0.412
+23.4035 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.244), (3, 0.412)]
+23.4165 	EXP 	New trial (rep=0, index=19): OrderedDict([('C', 'Illegally copying a piece of software. (E) ')])
+23.4229 	EXP 	RatingScale rating_2: reset()
+23.4252 	DATA 	Mouse:  Left button up, pos=(709,166)
+23.4474 	EXP 	activity: autoDraw = False
+23.4474 	EXP 	notAtAll2: autoDraw = False
+23.4474 	EXP 	ExtremelyLikely: autoDraw = False
+23.4474 	EXP 	rating_2: autoDraw = False
+23.4474 	EXP 	activity: text = 'Illegally copying a piece of software. (E) '
+23.4474 	EXP 	activity: autoDraw = True
+23.4474 	EXP 	notAtAll2: autoDraw = True
+23.4474 	EXP 	ExtremelyLikely: autoDraw = True
+23.4474 	EXP 	rating_2: autoDraw = True
+23.7369 	DATA 	Keypress: 3
+23.7379 	DATA 	Mouse: Left button down, pos=(709,166)
+23.8344 	DATA 	RatingScale rating_2: (mouse response) rating=3
+23.8344 	DATA 	RatingScale rating_2: rating RT=0.411
+23.8345 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.315), (3, 0.411)]
+23.8513 	EXP 	New trial (rep=0, index=20): OrderedDict([('C', 'Going whitewater rafting during rapid water flows in the spring. (R) ')])
+23.8619 	EXP 	RatingScale rating_2: reset()
+23.8653 	DATA 	Mouse:  Left button up, pos=(709,166)
+23.8806 	EXP 	activity: autoDraw = False
+23.8806 	EXP 	notAtAll2: autoDraw = False
+23.8806 	EXP 	ExtremelyLikely: autoDraw = False
+23.8806 	EXP 	rating_2: autoDraw = False
+23.8806 	EXP 	activity: text = 'Going whitewater rafting during rapid water flows in the spring. (R) '
+23.8806 	EXP 	activity: autoDraw = True
+23.8806 	EXP 	notAtAll2: autoDraw = True
+23.8806 	EXP 	ExtremelyLikely: autoDraw = True
+23.8806 	EXP 	rating_2: autoDraw = True
+24.1727 	DATA 	Keypress: 3
+24.1738 	DATA 	Mouse: Left button down, pos=(709,166)
+24.2689 	DATA 	RatingScale rating_2: (mouse response) rating=3
+24.2689 	DATA 	RatingScale rating_2: rating RT=0.406
+24.2689 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.312), (3, 0.406)]
+24.2848 	EXP 	New trial (rep=0, index=21): OrderedDict([('C', "Betting a day's income on the outcome of a sporting event (e.g. baseball, soccer, or football). (G)")])
+24.2968 	EXP 	RatingScale rating_2: reset()
+24.2997 	DATA 	Mouse:  Left button up, pos=(709,166)
+24.3133 	EXP 	activity: autoDraw = False
+24.3133 	EXP 	notAtAll2: autoDraw = False
+24.3133 	EXP 	ExtremelyLikely: autoDraw = False
+24.3133 	EXP 	rating_2: autoDraw = False
+24.3133 	EXP 	activity: text = "Betting a day's income on the outcome of a sporting event (e.g. baseball, soccer, or football). (G)"
+24.3133 	EXP 	activity: autoDraw = True
+24.3133 	EXP 	notAtAll2: autoDraw = True
+24.3133 	EXP 	ExtremelyLikely: autoDraw = True
+24.3133 	EXP 	rating_2: autoDraw = True
+24.6167 	DATA 	Mouse: Left button down, pos=(709,166)
+24.6356 	DATA 	Keypress: 3
+24.7035 	DATA 	RatingScale rating_2: (mouse response) rating=3
+24.7036 	DATA 	RatingScale rating_2: rating RT=0.406
+24.7036 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.339), (3, 0.406)]
+24.7184 	EXP 	New trial (rep=0, index=22): OrderedDict([('C', 'Telling a friend if his or her significant other has made a pass at you. (S)')])
+24.7311 	EXP 	RatingScale rating_2: reset()
+24.7340 	DATA 	Mouse:  Left button up, pos=(709,166)
+24.7470 	EXP 	activity: autoDraw = False
+24.7470 	EXP 	notAtAll2: autoDraw = False
+24.7470 	EXP 	ExtremelyLikely: autoDraw = False
+24.7470 	EXP 	rating_2: autoDraw = False
+24.7470 	EXP 	activity: text = 'Telling a friend if his or her significant other has made a pass at you. (S)'
+24.7470 	EXP 	activity: autoDraw = True
+24.7470 	EXP 	notAtAll2: autoDraw = True
+24.7470 	EXP 	ExtremelyLikely: autoDraw = True
+24.7470 	EXP 	rating_2: autoDraw = True
+24.9858 	DATA 	Mouse: Left button down, pos=(709,166)
+25.0024 	DATA 	Keypress: 3
+25.1191 	DATA 	Mouse:  Left button up, pos=(709,166)
+25.3873 	DATA 	Keypress: 3
+25.4174 	DATA 	Mouse: Left button down, pos=(709,166)
+25.4181 	DATA 	RatingScale rating_2: (mouse response) rating=3
+25.4182 	DATA 	RatingScale rating_2: rating RT=0.686
+25.4182 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.271), (3, 0.686)]
+25.4338 	EXP 	New trial (rep=0, index=23): OrderedDict([('C', 'Investing 5% of your annual income in an conservative stock. (I)')])
+25.4441 	EXP 	RatingScale rating_2: reset()
+25.4637 	EXP 	activity: autoDraw = False
+25.4637 	EXP 	notAtAll2: autoDraw = False
+25.4637 	EXP 	ExtremelyLikely: autoDraw = False
+25.4637 	EXP 	rating_2: autoDraw = False
+25.4637 	EXP 	activity: text = 'Investing 5% of your annual income in an conservative stock. (I)'
+25.4637 	EXP 	activity: autoDraw = True
+25.4637 	EXP 	notAtAll2: autoDraw = True
+25.4637 	EXP 	ExtremelyLikely: autoDraw = True
+25.4637 	EXP 	rating_2: autoDraw = True
+25.5506 	DATA 	Mouse:  Left button up, pos=(709,166)
+25.8511 	DATA 	Mouse: Left button down, pos=(709,166)
+25.8535 	DATA 	Keypress: 3
+25.8548 	DATA 	RatingScale rating_2: (mouse response) rating=3
+25.8549 	DATA 	RatingScale rating_2: rating RT=0.410
+25.8549 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.41)]
+25.8670 	EXP 	New trial (rep=0, index=24): OrderedDict([('C', 'Shoplifting a small item (e.g. a lipstick or a pen). (E) ')])
+25.8717 	EXP 	RatingScale rating_2: reset()
+25.8978 	EXP 	activity: autoDraw = False
+25.8978 	EXP 	notAtAll2: autoDraw = False
+25.8978 	EXP 	ExtremelyLikely: autoDraw = False
+25.8978 	EXP 	rating_2: autoDraw = False
+25.8978 	EXP 	activity: text = 'Shoplifting a small item (e.g. a lipstick or a pen). (E) '
+25.8978 	EXP 	activity: autoDraw = True
+25.8978 	EXP 	notAtAll2: autoDraw = True
+25.8978 	EXP 	ExtremelyLikely: autoDraw = True
+25.8978 	EXP 	rating_2: autoDraw = True
+25.9690 	DATA 	Mouse:  Left button up, pos=(709,166)
+26.2844 	DATA 	Keypress: 3
+26.3011 	DATA 	Mouse: Left button down, pos=(709,166)
+26.3018 	DATA 	RatingScale rating_2: (mouse response) rating=3
+26.3018 	DATA 	RatingScale rating_2: rating RT=0.429
+26.3018 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.413), (3, 0.429)]
+26.3164 	EXP 	New trial (rep=0, index=25): OrderedDict([('C', 'Wearing provocative or unconventional clothes on occasion. (S)')])
+26.3267 	EXP 	RatingScale rating_2: reset()
+26.3474 	EXP 	activity: autoDraw = False
+26.3474 	EXP 	notAtAll2: autoDraw = False
+26.3474 	EXP 	ExtremelyLikely: autoDraw = False
+26.3474 	EXP 	rating_2: autoDraw = False
+26.3474 	EXP 	activity: text = 'Wearing provocative or unconventional clothes on occasion. (S)'
+26.3474 	EXP 	activity: autoDraw = True
+26.3474 	EXP 	notAtAll2: autoDraw = True
+26.3474 	EXP 	ExtremelyLikely: autoDraw = True
+26.3474 	EXP 	rating_2: autoDraw = True
+26.4671 	DATA 	Mouse:  Left button up, pos=(709,166)
+26.7042 	DATA 	Keypress: 3
+26.7342 	DATA 	Mouse: Left button down, pos=(709,166)
+26.7350 	DATA 	RatingScale rating_2: (mouse response) rating=3
+26.7350 	DATA 	RatingScale rating_2: rating RT=0.407
+26.7350 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.378), (3, 0.407)]
+26.7495 	EXP 	New trial (rep=0, index=26): OrderedDict([('C', 'Engaging in unprotected sex. (H)')])
+26.7573 	EXP 	RatingScale rating_2: reset()
+26.7802 	EXP 	activity: autoDraw = False
+26.7802 	EXP 	notAtAll2: autoDraw = False
+26.7802 	EXP 	ExtremelyLikely: autoDraw = False
+26.7802 	EXP 	rating_2: autoDraw = False
+26.7802 	EXP 	activity: text = 'Engaging in unprotected sex. (H)'
+26.7802 	EXP 	activity: autoDraw = True
+26.7802 	EXP 	notAtAll2: autoDraw = True
+26.7802 	EXP 	ExtremelyLikely: autoDraw = True
+26.7802 	EXP 	rating_2: autoDraw = True
+26.8518 	DATA 	Mouse:  Left button up, pos=(709,166)
+27.1843 	DATA 	Keypress: 3
+27.2188 	DATA 	Mouse: Left button down, pos=(709,166)
+27.2197 	DATA 	RatingScale rating_2: (mouse response) rating=3
+27.2197 	DATA 	RatingScale rating_2: rating RT=0.462
+27.2197 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.427), (3, 0.461)]
+27.2351 	EXP 	New trial (rep=0, index=27): OrderedDict([('C', 'Stealing an additional TV cable connection off the one you pay for. (E) ')])
+27.2480 	EXP 	RatingScale rating_2: reset()
+27.2633 	EXP 	activity: autoDraw = False
+27.2633 	EXP 	notAtAll2: autoDraw = False
+27.2633 	EXP 	ExtremelyLikely: autoDraw = False
+27.2633 	EXP 	rating_2: autoDraw = False
+27.2633 	EXP 	activity: text = 'Stealing an additional TV cable connection off the one you pay for. (E) '
+27.2633 	EXP 	activity: autoDraw = True
+27.2633 	EXP 	notAtAll2: autoDraw = True
+27.2633 	EXP 	ExtremelyLikely: autoDraw = True
+27.2633 	EXP 	rating_2: autoDraw = True
+27.3342 	DATA 	Mouse:  Left button up, pos=(709,166)
+27.6218 	DATA 	Keypress: 3
+27.6228 	DATA 	Mouse: Left button down, pos=(709,166)
+27.6704 	DATA 	RatingScale rating_2: (mouse response) rating=3
+27.6705 	DATA 	RatingScale rating_2: rating RT=0.421
+27.6705 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.374), (3, 0.421)]
+27.6843 	EXP 	New trial (rep=0, index=28): OrderedDict([('C', 'Not wearing a seatbelt when being a passenger in the front seat. (H)')])
+27.6976 	EXP 	RatingScale rating_2: reset()
+27.7145 	EXP 	activity: autoDraw = False
+27.7145 	EXP 	notAtAll2: autoDraw = False
+27.7145 	EXP 	ExtremelyLikely: autoDraw = False
+27.7145 	EXP 	rating_2: autoDraw = False
+27.7145 	EXP 	activity: text = 'Not wearing a seatbelt when being a passenger in the front seat. (H)'
+27.7145 	EXP 	activity: autoDraw = True
+27.7145 	EXP 	notAtAll2: autoDraw = True
+27.7145 	EXP 	ExtremelyLikely: autoDraw = True
+27.7145 	EXP 	rating_2: autoDraw = True
+27.7522 	DATA 	Mouse:  Left button up, pos=(709,166)
+27.9858 	DATA 	Keypress: 3
+28.0355 	DATA 	Mouse: Left button down, pos=(709,166)
+28.1032 	DATA 	RatingScale rating_2: (mouse response) rating=3
+28.1032 	DATA 	RatingScale rating_2: rating RT=0.405
+28.1032 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.288), (3, 0.404)]
+28.1166 	EXP 	New trial (rep=0, index=29): OrderedDict([('C', 'Investing 10% of your annual income in governmental bonds (treasury bills). (I)')])
+28.1265 	EXP 	RatingScale rating_2: reset()
+28.1473 	EXP 	activity: autoDraw = False
+28.1473 	EXP 	notAtAll2: autoDraw = False
+28.1473 	EXP 	ExtremelyLikely: autoDraw = False
+28.1473 	EXP 	rating_2: autoDraw = False
+28.1473 	EXP 	activity: text = 'Investing 10% of your annual income in governmental bonds (treasury bills). (I)'
+28.1473 	EXP 	activity: autoDraw = True
+28.1473 	EXP 	notAtAll2: autoDraw = True
+28.1473 	EXP 	ExtremelyLikely: autoDraw = True
+28.1473 	EXP 	rating_2: autoDraw = True
+28.1664 	DATA 	Mouse:  Left button up, pos=(709,166)
+28.3021 	DATA 	Keypress: 3
+28.4854 	DATA 	Mouse: Left button down, pos=(709,166)
+28.5350 	DATA 	RatingScale rating_2: (mouse response) rating=3
+28.5350 	DATA 	RatingScale rating_2: rating RT=0.408
+28.5350 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.176), (3, 0.408)]
+28.5500 	EXP 	New trial (rep=0, index=30): OrderedDict([('C', 'Periodically engaging in a dangerous sport (e.g. mountain climbing or sky diving). (R) ')])
+28.5601 	EXP 	RatingScale rating_2: reset()
+28.5809 	EXP 	activity: autoDraw = False
+28.5809 	EXP 	notAtAll2: autoDraw = False
+28.5809 	EXP 	ExtremelyLikely: autoDraw = False
+28.5809 	EXP 	rating_2: autoDraw = False
+28.5809 	EXP 	activity: text = 'Periodically engaging in a dangerous sport (e.g. mountain climbing or sky diving). (R) '
+28.5809 	EXP 	activity: autoDraw = True
+28.5809 	EXP 	notAtAll2: autoDraw = True
+28.5809 	EXP 	ExtremelyLikely: autoDraw = True
+28.5809 	EXP 	rating_2: autoDraw = True
+28.6022 	DATA 	Keypress: 3
+28.6517 	DATA 	Mouse:  Left button up, pos=(709,166)
+28.9364 	DATA 	Keypress: 3
+29.0374 	DATA 	Mouse: Left button down, pos=(709,166)
+29.0383 	DATA 	RatingScale rating_2: (mouse response) rating=3
+29.0384 	DATA 	RatingScale rating_2: rating RT=0.477
+29.0384 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.042), (3, 0.477)]
+29.0531 	EXP 	New trial (rep=0, index=31): OrderedDict([('C', 'Not wearing a helmet when riding a motorcycle. (H)')])
+29.0632 	EXP 	RatingScale rating_2: reset()
+29.0807 	EXP 	activity: autoDraw = False
+29.0807 	EXP 	notAtAll2: autoDraw = False
+29.0807 	EXP 	ExtremelyLikely: autoDraw = False
+29.0807 	EXP 	rating_2: autoDraw = False
+29.0807 	EXP 	activity: text = 'Not wearing a helmet when riding a motorcycle. (H)'
+29.0807 	EXP 	activity: autoDraw = True
+29.0807 	EXP 	notAtAll2: autoDraw = True
+29.0807 	EXP 	ExtremelyLikely: autoDraw = True
+29.0807 	EXP 	rating_2: autoDraw = True
+29.1500 	DATA 	Mouse:  Left button up, pos=(709,166)
+29.3351 	DATA 	Keypress: 3
+29.3856 	DATA 	Mouse: Left button down, pos=(709,166)
+29.4701 	DATA 	RatingScale rating_2: (mouse response) rating=3
+29.4701 	DATA 	RatingScale rating_2: rating RT=0.406
+29.4702 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.272), (3, 0.406)]
+29.4831 	EXP 	New trial (rep=0, index=32): OrderedDict([('C', "Gambling a week's income at a casino. (G)")])
+29.4895 	EXP 	RatingScale rating_2: reset()
+29.4927 	DATA 	Mouse:  Left button up, pos=(709,166)
+29.5136 	EXP 	activity: autoDraw = False
+29.5136 	EXP 	notAtAll2: autoDraw = False
+29.5136 	EXP 	ExtremelyLikely: autoDraw = False
+29.5136 	EXP 	rating_2: autoDraw = False
+29.5136 	EXP 	activity: text = "Gambling a week's income at a casino. (G)"
+29.5136 	EXP 	activity: autoDraw = True
+29.5136 	EXP 	notAtAll2: autoDraw = True
+29.5136 	EXP 	ExtremelyLikely: autoDraw = True
+29.5136 	EXP 	rating_2: autoDraw = True
+29.6669 	DATA 	Keypress: 3
+29.7703 	DATA 	Mouse: Left button down, pos=(709,166)
+29.8696 	DATA 	Mouse:  Left button up, pos=(709,166)
+30.1354 	DATA 	Mouse: Left button down, pos=(709,166)
+30.1363 	DATA 	RatingScale rating_2: (mouse response) rating=3
+30.1364 	DATA 	RatingScale rating_2: rating RT=0.646
+30.1364 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.177), (3, 0.646)]
+30.1498 	EXP 	New trial (rep=0, index=33): OrderedDict([('C', 'Taking a job that you enjoy over one that is prestigious but less enjoyable. (S)')])
+30.1605 	EXP 	RatingScale rating_2: reset()
+30.1647 	DATA 	Keypress: 3
+30.1799 	EXP 	activity: autoDraw = False
+30.1799 	EXP 	notAtAll2: autoDraw = False
+30.1799 	EXP 	ExtremelyLikely: autoDraw = False
+30.1799 	EXP 	rating_2: autoDraw = False
+30.1799 	EXP 	activity: text = 'Taking a job that you enjoy over one that is prestigious but less enjoyable. (S)'
+30.1799 	EXP 	activity: autoDraw = True
+30.1799 	EXP 	notAtAll2: autoDraw = True
+30.1799 	EXP 	ExtremelyLikely: autoDraw = True
+30.1799 	EXP 	rating_2: autoDraw = True
+30.2705 	DATA 	Mouse:  Left button up, pos=(709,166)
+30.4878 	DATA 	Keypress: 3
+30.5360 	DATA 	Mouse: Left button down, pos=(709,166)
+30.5687 	DATA 	RatingScale rating_2: (mouse response) rating=3
+30.5687 	DATA 	RatingScale rating_2: rating RT=0.407
+30.5687 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.004), (3, 0.407)]
+30.5834 	EXP 	New trial (rep=0, index=34): OrderedDict([('C', 'Defending an unpopular issue that you believe in at a social occasion. (S)')])
+30.5931 	EXP 	RatingScale rating_2: reset()
+30.6141 	EXP 	activity: autoDraw = False
+30.6141 	EXP 	notAtAll2: autoDraw = False
+30.6141 	EXP 	ExtremelyLikely: autoDraw = False
+30.6141 	EXP 	rating_2: autoDraw = False
+30.6141 	EXP 	activity: text = 'Defending an unpopular issue that you believe in at a social occasion. (S)'
+30.6141 	EXP 	activity: autoDraw = True
+30.6141 	EXP 	notAtAll2: autoDraw = True
+30.6141 	EXP 	ExtremelyLikely: autoDraw = True
+30.6141 	EXP 	rating_2: autoDraw = True
+30.6685 	DATA 	Mouse:  Left button up, pos=(709,166)
+30.9025 	DATA 	Keypress: 3
+30.9531 	DATA 	Mouse: Left button down, pos=(709,166)
+31.0021 	DATA 	RatingScale rating_2: (mouse response) rating=3
+31.0021 	DATA 	RatingScale rating_2: rating RT=0.408
+31.0022 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.31), (3, 0.408)]
+31.0181 	EXP 	New trial (rep=0, index=35): OrderedDict([('C', 'Exposing yourself to the sun without using sunscreen. (H)')])
+31.0290 	EXP 	RatingScale rating_2: reset()
+31.0473 	EXP 	activity: autoDraw = False
+31.0473 	EXP 	notAtAll2: autoDraw = False
+31.0473 	EXP 	ExtremelyLikely: autoDraw = False
+31.0473 	EXP 	rating_2: autoDraw = False
+31.0473 	EXP 	activity: text = 'Exposing yourself to the sun without using sunscreen. (H)'
+31.0473 	EXP 	activity: autoDraw = True
+31.0473 	EXP 	notAtAll2: autoDraw = True
+31.0473 	EXP 	ExtremelyLikely: autoDraw = True
+31.0473 	EXP 	rating_2: autoDraw = True
+31.0679 	DATA 	Mouse:  Left button up, pos=(709,166)
+31.1517 	DATA 	Keypress: 3
+31.3203 	DATA 	Mouse: Left button down, pos=(709,166)
+31.4370 	DATA 	Mouse:  Left button up, pos=(709,166)
+31.6850 	DATA 	Keypress: 3
+31.7004 	DATA 	Mouse: Left button down, pos=(709,166)
+31.7009 	DATA 	RatingScale rating_2: (mouse response) rating=3
+31.7010 	DATA 	RatingScale rating_2: rating RT=0.671
+31.7010 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.123), (3, 0.671)]
+31.7154 	EXP 	New trial (rep=0, index=36): OrderedDict([('C', 'Trying out bungee jumping at least once. (R)')])
+31.7231 	EXP 	RatingScale rating_2: reset()
+31.7479 	EXP 	activity: autoDraw = False
+31.7479 	EXP 	notAtAll2: autoDraw = False
+31.7479 	EXP 	ExtremelyLikely: autoDraw = False
+31.7479 	EXP 	rating_2: autoDraw = False
+31.7479 	EXP 	activity: text = 'Trying out bungee jumping at least once. (R)'
+31.7479 	EXP 	activity: autoDraw = True
+31.7479 	EXP 	notAtAll2: autoDraw = True
+31.7479 	EXP 	ExtremelyLikely: autoDraw = True
+31.7479 	EXP 	rating_2: autoDraw = True
+31.8192 	DATA 	Mouse:  Left button up, pos=(709,166)
+32.0518 	DATA 	Keypress: 3
+32.1026 	DATA 	Mouse: Left button down, pos=(709,166)
+32.1359 	DATA 	RatingScale rating_2: (mouse response) rating=3
+32.1360 	DATA 	RatingScale rating_2: rating RT=0.412
+32.1360 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.329), (3, 0.412)]
+32.1504 	EXP 	New trial (rep=0, index=37): OrderedDict([('C', 'Piloting your own small plane, if you could. (R) ')])
+32.1593 	EXP 	RatingScale rating_2: reset()
+32.1812 	EXP 	activity: autoDraw = False
+32.1812 	EXP 	notAtAll2: autoDraw = False
+32.1812 	EXP 	ExtremelyLikely: autoDraw = False
+32.1812 	EXP 	rating_2: autoDraw = False
+32.1812 	EXP 	activity: text = 'Piloting your own small plane, if you could. (R) '
+32.1812 	EXP 	activity: autoDraw = True
+32.1812 	EXP 	notAtAll2: autoDraw = True
+32.1812 	EXP 	ExtremelyLikely: autoDraw = True
+32.1812 	EXP 	rating_2: autoDraw = True
+32.2176 	DATA 	Mouse:  Left button up, pos=(709,166)
+32.4375 	DATA 	Keypress: 3
+32.4702 	DATA 	Mouse: Left button down, pos=(709,166)
+32.5699 	DATA 	RatingScale rating_2: (mouse response) rating=3
+32.5700 	DATA 	RatingScale rating_2: rating RT=0.410
+32.5700 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.29), (3, 0.41)]
+32.5835 	EXP 	New trial (rep=0, index=38): OrderedDict([('C', 'Walking home alone at night in a somewhat unsafe area of town. (H)')])
+32.5925 	EXP 	RatingScale rating_2: reset()
+32.5957 	DATA 	Mouse:  Left button up, pos=(709,166)
+32.6142 	EXP 	activity: autoDraw = False
+32.6142 	EXP 	notAtAll2: autoDraw = False
+32.6142 	EXP 	ExtremelyLikely: autoDraw = False
+32.6142 	EXP 	rating_2: autoDraw = False
+32.6142 	EXP 	activity: text = 'Walking home alone at night in a somewhat unsafe area of town. (H)'
+32.6142 	EXP 	activity: autoDraw = True
+32.6142 	EXP 	notAtAll2: autoDraw = True
+32.6142 	EXP 	ExtremelyLikely: autoDraw = True
+32.6142 	EXP 	rating_2: autoDraw = True
+32.8353 	DATA 	Keypress: 3
+32.9025 	DATA 	Mouse: Left button down, pos=(709,166)
+32.9851 	DATA 	Mouse:  Left button up, pos=(709,166)
+33.1858 	DATA 	Keypress: 3
+33.2188 	DATA 	Mouse: Left button down, pos=(709,166)
+33.2196 	DATA 	RatingScale rating_2: (mouse response) rating=3
+33.2196 	DATA 	RatingScale rating_2: rating RT=0.626
+33.2197 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.243), (3, 0.626)]
+33.2330 	EXP 	New trial (rep=0, index=39): OrderedDict([('C', 'Regularly eating high cholesterol foods. (H) ')])
+33.2411 	EXP 	RatingScale rating_2: reset()
+33.2638 	EXP 	activity: autoDraw = False
+33.2638 	EXP 	notAtAll2: autoDraw = False
+33.2638 	EXP 	ExtremelyLikely: autoDraw = False
+33.2638 	EXP 	rating_2: autoDraw = False
+33.2638 	EXP 	activity: text = 'Regularly eating high cholesterol foods. (H) '
+33.2638 	EXP 	activity: autoDraw = True
+33.2638 	EXP 	notAtAll2: autoDraw = True
+33.2638 	EXP 	ExtremelyLikely: autoDraw = True
+33.2638 	EXP 	rating_2: autoDraw = True
+33.3502 	DATA 	Mouse:  Left button up, pos=(709,166)
+33.5524 	DATA 	Keypress: 3
+33.6030 	DATA 	Mouse: Left button down, pos=(709,166)
+33.6507 	DATA 	RatingScale rating_2: (mouse response) rating=3
+33.6508 	DATA 	RatingScale rating_2: rating RT=0.409
+33.6508 	DATA 	RatingScale rating_2: history=[(None, 0.0), (3, 0.324), (3, 0.409)]
+33.7191 	DATA 	Mouse:  Left button up, pos=(709,166)
+33.7319 	EXP 	activity: autoDraw = False
+33.7319 	EXP 	notAtAll2: autoDraw = False
+33.7319 	EXP 	ExtremelyLikely: autoDraw = False
+33.7319 	EXP 	rating_2: autoDraw = False
+33.7319 	EXP 	riskPerceptionInstructions: autoDraw = True
+33.9570 	DEBUG 	Read Excel file with pandas: activities.xlsx
+33.9587 	DEBUG 	Clearing unnamed columns from activities.xlsx
+33.9595 	EXP 	Imported activities.xlsx as conditions, 40 conditions, 1 params
+33.9600 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+33.9603 	EXP 	New trial (rep=0, index=0): OrderedDict([('C', 'Admitting that your tastes are different from those of your friends. (S)')])
+33.9663 	EXP 	RatingScale rating_4: reset()
+33.9731 	DATA 	Keypress: 3
+33.9972 	EXP 	riskPerceptionInstructions: autoDraw = False
+33.9972 	EXP 	riskPerceptionActivity2: text = 'Admitting that your tastes are different from those of your friends. (S)'
+33.9972 	EXP 	riskPerceptionActivity2: autoDraw = True
+33.9972 	EXP 	rating_4: autoDraw = True
+33.9972 	EXP 	notAtAllRisky: autoDraw = True
+33.9972 	EXP 	ExtremelyRisky: autoDraw = True
+33.9972 	EXP 	ModeratelyRisky: autoDraw = True
+46.2514 	DATA 	Keypress: 3
+46.5685 	DATA 	Mouse: Left button down, pos=(704,170)
+46.5698 	DATA 	RatingScale rating_4: (mouse response) rating=3
+46.5698 	DATA 	RatingScale rating_4: rating RT=12.603
+46.5698 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.007), (3, 12.602)]
+46.5846 	EXP 	New trial (rep=0, index=1): OrderedDict([('C', 'Going camping in the wilderness, beyond the civilization of a campground. (R) ')])
+46.5948 	EXP 	RatingScale rating_4: reset()
+46.6130 	EXP 	riskPerceptionActivity2: autoDraw = False
+46.6130 	EXP 	rating_4: autoDraw = False
+46.6130 	EXP 	notAtAllRisky: autoDraw = False
+46.6130 	EXP 	ExtremelyRisky: autoDraw = False
+46.6130 	EXP 	ModeratelyRisky: autoDraw = False
+46.6130 	EXP 	riskPerceptionActivity2: text = 'Going camping in the wilderness, beyond the civilization of a campground. (R) '
+46.6130 	EXP 	riskPerceptionActivity2: autoDraw = True
+46.6130 	EXP 	rating_4: autoDraw = True
+46.6130 	EXP 	notAtAllRisky: autoDraw = True
+46.6130 	EXP 	ExtremelyRisky: autoDraw = True
+46.6130 	EXP 	ModeratelyRisky: autoDraw = True
+46.6836 	DATA 	Mouse:  Left button up, pos=(704,169)
+46.9843 	DATA 	Keypress: 3
+47.3512 	DATA 	Mouse: Left button down, pos=(704,170)
+47.3521 	DATA 	RatingScale rating_4: (mouse response) rating=3
+47.3521 	DATA 	RatingScale rating_4: rating RT=0.756
+47.3521 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.39), (3, 0.756)]
+47.3661 	EXP 	New trial (rep=0, index=2): OrderedDict([('C', "Betting a day's income at the horse races. (G)")])
+47.3753 	EXP 	RatingScale rating_4: reset()
+47.3962 	EXP 	riskPerceptionActivity2: autoDraw = False
+47.3962 	EXP 	rating_4: autoDraw = False
+47.3962 	EXP 	notAtAllRisky: autoDraw = False
+47.3962 	EXP 	ExtremelyRisky: autoDraw = False
+47.3962 	EXP 	ModeratelyRisky: autoDraw = False
+47.3962 	EXP 	riskPerceptionActivity2: text = "Betting a day's income at the horse races. (G)"
+47.3962 	EXP 	riskPerceptionActivity2: autoDraw = True
+47.3962 	EXP 	rating_4: autoDraw = True
+47.3962 	EXP 	notAtAllRisky: autoDraw = True
+47.3962 	EXP 	ExtremelyRisky: autoDraw = True
+47.3962 	EXP 	ModeratelyRisky: autoDraw = True
+47.4681 	DATA 	Mouse:  Left button up, pos=(704,170)
+47.5522 	DATA 	Keypress: 3
+47.7517 	DATA 	Mouse: Left button down, pos=(704,170)
+47.7839 	DATA 	RatingScale rating_4: (mouse response) rating=3
+47.7840 	DATA 	RatingScale rating_4: rating RT=0.408
+47.7840 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.177), (3, 0.408)]
+47.7991 	EXP 	New trial (rep=0, index=3): OrderedDict([('C', 'Buying an illegal drug for your own use. (H)')])
+47.8078 	EXP 	RatingScale rating_4: reset()
+47.8301 	EXP 	riskPerceptionActivity2: autoDraw = False
+47.8301 	EXP 	rating_4: autoDraw = False
+47.8301 	EXP 	notAtAllRisky: autoDraw = False
+47.8301 	EXP 	ExtremelyRisky: autoDraw = False
+47.8301 	EXP 	ModeratelyRisky: autoDraw = False
+47.8301 	EXP 	riskPerceptionActivity2: text = 'Buying an illegal drug for your own use. (H)'
+47.8301 	EXP 	riskPerceptionActivity2: autoDraw = True
+47.8301 	EXP 	rating_4: autoDraw = True
+47.8301 	EXP 	notAtAllRisky: autoDraw = True
+47.8301 	EXP 	ExtremelyRisky: autoDraw = True
+47.8301 	EXP 	ModeratelyRisky: autoDraw = True
+47.8680 	DATA 	Mouse:  Left button up, pos=(704,170)
+47.9182 	DATA 	Keypress: 3
+48.1005 	DATA 	Mouse: Left button down, pos=(704,170)
+48.2176 	DATA 	Mouse:  Left button up, pos=(704,170)
+48.3025 	DATA 	Keypress: 3
+48.5522 	DATA 	Mouse: Left button down, pos=(704,170)
+48.5532 	DATA 	RatingScale rating_4: (mouse response) rating=3
+48.5532 	DATA 	RatingScale rating_4: rating RT=0.744
+48.5533 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.111), (3, 0.744)]
+48.5664 	EXP 	New trial (rep=0, index=4): OrderedDict([('C', 'Cheating on an exam. (E)')])
+48.5750 	EXP 	RatingScale rating_4: reset()
+48.5962 	EXP 	riskPerceptionActivity2: autoDraw = False
+48.5962 	EXP 	rating_4: autoDraw = False
+48.5962 	EXP 	notAtAllRisky: autoDraw = False
+48.5962 	EXP 	ExtremelyRisky: autoDraw = False
+48.5962 	EXP 	ModeratelyRisky: autoDraw = False
+48.5962 	EXP 	riskPerceptionActivity2: text = 'Cheating on an exam. (E)'
+48.5962 	EXP 	riskPerceptionActivity2: autoDraw = True
+48.5962 	EXP 	rating_4: autoDraw = True
+48.5962 	EXP 	notAtAllRisky: autoDraw = True
+48.5962 	EXP 	ExtremelyRisky: autoDraw = True
+48.5962 	EXP 	ModeratelyRisky: autoDraw = True
+48.6177 	DATA 	Keypress: 3
+48.6661 	DATA 	Mouse:  Left button up, pos=(704,170)
+48.9844 	DATA 	Mouse: Left button down, pos=(704,170)
+48.9848 	DATA 	RatingScale rating_4: (mouse response) rating=3
+48.9848 	DATA 	RatingScale rating_4: rating RT=0.409
+48.9849 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.043), (3, 0.409)]
+48.9979 	EXP 	New trial (rep=0, index=5): OrderedDict([('C', 'Chasing a tornado or hurricane by car to take dramatic photos. (R)')])
+49.0067 	EXP 	RatingScale rating_4: reset()
+49.0110 	DATA 	Keypress: 3
+49.0298 	EXP 	riskPerceptionActivity2: autoDraw = False
+49.0298 	EXP 	rating_4: autoDraw = False
+49.0298 	EXP 	notAtAllRisky: autoDraw = False
+49.0298 	EXP 	ExtremelyRisky: autoDraw = False
+49.0298 	EXP 	ModeratelyRisky: autoDraw = False
+49.0298 	EXP 	riskPerceptionActivity2: text = 'Chasing a tornado or hurricane by car to take dramatic photos. (R)'
+49.0298 	EXP 	riskPerceptionActivity2: autoDraw = True
+49.0298 	EXP 	rating_4: autoDraw = True
+49.0298 	EXP 	notAtAllRisky: autoDraw = True
+49.0298 	EXP 	ExtremelyRisky: autoDraw = True
+49.0298 	EXP 	ModeratelyRisky: autoDraw = True
+49.1019 	DATA 	Mouse:  Left button up, pos=(704,170)
+49.4531 	DATA 	Keypress: 3
+49.4851 	DATA 	Mouse: Left button down, pos=(704,170)
+49.4861 	DATA 	RatingScale rating_4: (mouse response) rating=3
+49.4861 	DATA 	RatingScale rating_4: rating RT=0.479
+49.4861 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.004), (3, 0.479)]
+49.5006 	EXP 	New trial (rep=0, index=6): OrderedDict([('C', 'Investing 10% of your annual income in a moderate growth mutual fund. (I)')])
+49.5110 	EXP 	RatingScale rating_4: reset()
+49.5296 	EXP 	riskPerceptionActivity2: autoDraw = False
+49.5296 	EXP 	rating_4: autoDraw = False
+49.5296 	EXP 	notAtAllRisky: autoDraw = False
+49.5296 	EXP 	ExtremelyRisky: autoDraw = False
+49.5296 	EXP 	ModeratelyRisky: autoDraw = False
+49.5296 	EXP 	riskPerceptionActivity2: text = 'Investing 10% of your annual income in a moderate growth mutual fund. (I)'
+49.5296 	EXP 	riskPerceptionActivity2: autoDraw = True
+49.5296 	EXP 	rating_4: autoDraw = True
+49.5296 	EXP 	notAtAllRisky: autoDraw = True
+49.5296 	EXP 	ExtremelyRisky: autoDraw = True
+49.5296 	EXP 	ModeratelyRisky: autoDraw = True
+49.6004 	DATA 	Mouse:  Left button up, pos=(704,170)
+49.9681 	DATA 	Mouse: Left button down, pos=(704,170)
+49.9832 	DATA 	Keypress: 3
+49.9844 	DATA 	RatingScale rating_4: (mouse response) rating=3
+49.9844 	DATA 	RatingScale rating_4: rating RT=0.472
+49.9844 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.472)]
+49.9976 	EXP 	New trial (rep=0, index=7): OrderedDict([('C', 'Consuming five or more servings of alcohol in a single evening. (H)')])
+50.0030 	EXP 	RatingScale rating_4: reset()
+50.0140 	EXP 	riskPerceptionActivity2: autoDraw = False
+50.0140 	EXP 	rating_4: autoDraw = False
+50.0140 	EXP 	notAtAllRisky: autoDraw = False
+50.0140 	EXP 	ExtremelyRisky: autoDraw = False
+50.0140 	EXP 	ModeratelyRisky: autoDraw = False
+50.0140 	EXP 	riskPerceptionActivity2: text = 'Consuming five or more servings of alcohol in a single evening. (H)'
+50.0140 	EXP 	riskPerceptionActivity2: autoDraw = True
+50.0140 	EXP 	rating_4: autoDraw = True
+50.0140 	EXP 	notAtAllRisky: autoDraw = True
+50.0140 	EXP 	ExtremelyRisky: autoDraw = True
+50.0140 	EXP 	ModeratelyRisky: autoDraw = True
+50.0823 	DATA 	Mouse:  Left button up, pos=(704,170)
+50.2175 	DATA 	Keypress: 3
+50.2516 	DATA 	Mouse: Left button down, pos=(704,170)
+50.3355 	DATA 	Mouse:  Left button up, pos=(704,170)
+50.5000 	DATA 	Mouse: Left button down, pos=(704,170)
+50.5024 	DATA 	Keypress: 3
+50.5037 	DATA 	RatingScale rating_4: (mouse response) rating=3
+50.5037 	DATA 	RatingScale rating_4: rating RT=0.500
+50.5037 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.215), (3, 0.5)]
+50.5142 	EXP 	New trial (rep=0, index=8): OrderedDict([('C', 'Cheating by a significant amount on your income tax return. (E)')])
+50.5203 	EXP 	RatingScale rating_4: reset()
+50.5460 	EXP 	riskPerceptionActivity2: autoDraw = False
+50.5460 	EXP 	rating_4: autoDraw = False
+50.5460 	EXP 	notAtAllRisky: autoDraw = False
+50.5460 	EXP 	ExtremelyRisky: autoDraw = False
+50.5460 	EXP 	ModeratelyRisky: autoDraw = False
+50.5460 	EXP 	riskPerceptionActivity2: text = 'Cheating by a significant amount on your income tax return. (E)'
+50.5460 	EXP 	riskPerceptionActivity2: autoDraw = True
+50.5460 	EXP 	rating_4: autoDraw = True
+50.5460 	EXP 	notAtAllRisky: autoDraw = True
+50.5460 	EXP 	ExtremelyRisky: autoDraw = True
+50.5460 	EXP 	ModeratelyRisky: autoDraw = True
+50.5847 	DATA 	Mouse:  Left button up, pos=(704,170)
+50.7322 	DATA 	Mouse: Left button down, pos=(704,170)
+50.7347 	DATA 	Keypress: 3
+50.8196 	DATA 	Mouse:  Left button up, pos=(704,170)
+50.9529 	DATA 	Keypress: 3
+50.9855 	DATA 	Mouse: Left button down, pos=(704,170)
+50.9867 	DATA 	RatingScale rating_4: (mouse response) rating=3
+50.9867 	DATA 	RatingScale rating_4: rating RT=0.466
+50.9867 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.215), (3, 0.465)]
+50.9999 	EXP 	New trial (rep=0, index=9): OrderedDict([('C', 'Disagreeing with your father on a major issue. (S)')])
+51.0102 	EXP 	RatingScale rating_4: reset()
+51.0291 	EXP 	riskPerceptionActivity2: autoDraw = False
+51.0291 	EXP 	rating_4: autoDraw = False
+51.0291 	EXP 	notAtAllRisky: autoDraw = False
+51.0291 	EXP 	ExtremelyRisky: autoDraw = False
+51.0291 	EXP 	ModeratelyRisky: autoDraw = False
+51.0291 	EXP 	riskPerceptionActivity2: text = 'Disagreeing with your father on a major issue. (S)'
+51.0291 	EXP 	riskPerceptionActivity2: autoDraw = True
+51.0291 	EXP 	rating_4: autoDraw = True
+51.0291 	EXP 	notAtAllRisky: autoDraw = True
+51.0291 	EXP 	ExtremelyRisky: autoDraw = True
+51.0291 	EXP 	ModeratelyRisky: autoDraw = True
+51.0849 	DATA 	Mouse:  Left button up, pos=(704,170)
+51.2690 	DATA 	Mouse: Left button down, pos=(704,170)
+51.3003 	DATA 	Keypress: 3
+51.3862 	DATA 	Mouse:  Left button up, pos=(704,170)
+51.5018 	DATA 	Mouse: Left button down, pos=(704,170)
+51.5026 	DATA 	RatingScale rating_4: (mouse response) rating=3
+51.5027 	DATA 	RatingScale rating_4: rating RT=0.491
+51.5027 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.29), (3, 0.491)]
+51.5148 	EXP 	New trial (rep=0, index=10): OrderedDict([('C', "Betting a day's income at a high stake poker game. (G)")])
+51.5249 	EXP 	RatingScale rating_4: reset()
+51.5464 	EXP 	riskPerceptionActivity2: autoDraw = False
+51.5464 	EXP 	rating_4: autoDraw = False
+51.5464 	EXP 	notAtAllRisky: autoDraw = False
+51.5464 	EXP 	ExtremelyRisky: autoDraw = False
+51.5464 	EXP 	ModeratelyRisky: autoDraw = False
+51.5464 	EXP 	riskPerceptionActivity2: text = "Betting a day's income at a high stake poker game. (G)"
+51.5464 	EXP 	riskPerceptionActivity2: autoDraw = True
+51.5464 	EXP 	rating_4: autoDraw = True
+51.5464 	EXP 	notAtAllRisky: autoDraw = True
+51.5464 	EXP 	ExtremelyRisky: autoDraw = True
+51.5464 	EXP 	ModeratelyRisky: autoDraw = True
+51.6012 	DATA 	Mouse:  Left button up, pos=(704,170)
+51.7329 	DATA 	Mouse: Left button down, pos=(704,170)
+51.7357 	DATA 	Keypress: 3
+51.8344 	DATA 	Mouse:  Left button up, pos=(704,170)
+51.9688 	DATA 	Mouse: Left button down, pos=(704,170)
+51.9698 	DATA 	RatingScale rating_4: (mouse response) rating=3
+51.9698 	DATA 	RatingScale rating_4: rating RT=0.444
+51.9699 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.211), (3, 0.444)]
+51.9819 	EXP 	New trial (rep=0, index=11): OrderedDict([('C', 'Having an affair with a married man or woman. (E)')])
+51.9896 	EXP 	RatingScale rating_4: reset()
+51.9939 	DATA 	Keypress: 3
+52.0132 	EXP 	riskPerceptionActivity2: autoDraw = False
+52.0132 	EXP 	rating_4: autoDraw = False
+52.0132 	EXP 	notAtAllRisky: autoDraw = False
+52.0132 	EXP 	ExtremelyRisky: autoDraw = False
+52.0132 	EXP 	ModeratelyRisky: autoDraw = False
+52.0132 	EXP 	riskPerceptionActivity2: text = 'Having an affair with a married man or woman. (E)'
+52.0132 	EXP 	riskPerceptionActivity2: autoDraw = True
+52.0132 	EXP 	rating_4: autoDraw = True
+52.0132 	EXP 	notAtAllRisky: autoDraw = True
+52.0132 	EXP 	ExtremelyRisky: autoDraw = True
+52.0132 	EXP 	ModeratelyRisky: autoDraw = True
+52.0693 	DATA 	Mouse:  Left button up, pos=(704,170)
+52.2020 	DATA 	Mouse: Left button down, pos=(704,170)
+52.2521 	DATA 	Keypress: 3
+52.2854 	DATA 	Mouse:  Left button up, pos=(704,170)
+52.4028 	DATA 	Mouse: Left button down, pos=(704,170)
+52.4041 	DATA 	RatingScale rating_4: (mouse response) rating=3
+52.4041 	DATA 	RatingScale rating_4: rating RT=0.414
+52.4041 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.004), (3, 0.414)]
+52.4165 	EXP 	New trial (rep=0, index=12): OrderedDict([('C', "Forging somebody's signature. (E)")])
+52.4250 	EXP 	RatingScale rating_4: reset()
+52.4467 	EXP 	riskPerceptionActivity2: autoDraw = False
+52.4467 	EXP 	rating_4: autoDraw = False
+52.4467 	EXP 	notAtAllRisky: autoDraw = False
+52.4467 	EXP 	ExtremelyRisky: autoDraw = False
+52.4467 	EXP 	ModeratelyRisky: autoDraw = False
+52.4467 	EXP 	riskPerceptionActivity2: text = "Forging somebody's signature. (E)"
+52.4467 	EXP 	riskPerceptionActivity2: autoDraw = True
+52.4467 	EXP 	rating_4: autoDraw = True
+52.4467 	EXP 	notAtAllRisky: autoDraw = True
+52.4467 	EXP 	ExtremelyRisky: autoDraw = True
+52.4467 	EXP 	ModeratelyRisky: autoDraw = True
+52.4998 	DATA 	Mouse:  Left button up, pos=(704,170)
+52.5871 	DATA 	Mouse: Left button down, pos=(704,170)
+52.6856 	DATA 	Keypress: 3
+52.7011 	DATA 	Mouse:  Left button up, pos=(704,170)
+52.8369 	DATA 	Mouse: Left button down, pos=(704,170)
+52.8509 	DATA 	RatingScale rating_4: (mouse response) rating=3
+52.8509 	DATA 	RatingScale rating_4: rating RT=0.425
+52.8509 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.261), (3, 0.425)]
+52.8656 	EXP 	New trial (rep=0, index=13): OrderedDict([('C', "Passing off somebody else's work as your own. (E)")])
+52.8739 	EXP 	RatingScale rating_4: reset()
+52.8961 	EXP 	riskPerceptionActivity2: autoDraw = False
+52.8961 	EXP 	rating_4: autoDraw = False
+52.8961 	EXP 	notAtAllRisky: autoDraw = False
+52.8961 	EXP 	ExtremelyRisky: autoDraw = False
+52.8961 	EXP 	ModeratelyRisky: autoDraw = False
+52.8961 	EXP 	riskPerceptionActivity2: text = "Passing off somebody else's work as your own. (E)"
+52.8961 	EXP 	riskPerceptionActivity2: autoDraw = True
+52.8961 	EXP 	rating_4: autoDraw = True
+52.8961 	EXP 	notAtAllRisky: autoDraw = True
+52.8961 	EXP 	ExtremelyRisky: autoDraw = True
+52.8961 	EXP 	ModeratelyRisky: autoDraw = True
+52.9371 	DATA 	Keypress: 3
+52.9518 	DATA 	Mouse:  Left button up, pos=(704,170)
+53.1034 	DATA 	Mouse: Left button down, pos=(704,170)
+53.1858 	DATA 	Keypress: 3
+53.1996 	DATA 	Mouse:  Left button up, pos=(704,170)
+53.3521 	DATA 	Mouse: Left button down, pos=(704,170)
+53.3530 	DATA 	RatingScale rating_4: (mouse response) rating=3
+53.3530 	DATA 	RatingScale rating_4: rating RT=0.478
+53.3530 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.064), (3, 0.478)]
+53.3661 	EXP 	New trial (rep=0, index=14): OrderedDict([('C', 'Going on a vacation in a third-world country without prearranged travel and hotel accommodations. (R)')])
+53.3780 	EXP 	RatingScale rating_4: reset()
+53.3825 	DATA 	Keypress: 3
+53.3962 	EXP 	riskPerceptionActivity2: autoDraw = False
+53.3962 	EXP 	rating_4: autoDraw = False
+53.3962 	EXP 	notAtAllRisky: autoDraw = False
+53.3962 	EXP 	ExtremelyRisky: autoDraw = False
+53.3962 	EXP 	ModeratelyRisky: autoDraw = False
+53.3962 	EXP 	riskPerceptionActivity2: text = 'Going on a vacation in a third-world country without prearranged travel and hotel accommodations. (R)'
+53.3962 	EXP 	riskPerceptionActivity2: autoDraw = True
+53.3962 	EXP 	rating_4: autoDraw = True
+53.3962 	EXP 	notAtAllRisky: autoDraw = True
+53.3962 	EXP 	ExtremelyRisky: autoDraw = True
+53.3962 	EXP 	ModeratelyRisky: autoDraw = True
+53.4692 	DATA 	Mouse:  Left button up, pos=(704,170)
+53.5687 	DATA 	Mouse: Left button down, pos=(704,170)
+53.6055 	DATA 	Keypress: 3
+53.6847 	DATA 	Mouse:  Left button up, pos=(704,170)
+53.8201 	DATA 	Mouse: Left button down, pos=(704,170)
+53.8212 	DATA 	RatingScale rating_4: (mouse response) rating=3
+53.8212 	DATA 	RatingScale rating_4: rating RT=0.442
+53.8212 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.004), (3, 0.442)]
+53.8352 	EXP 	New trial (rep=0, index=15): OrderedDict([('C', 'Arguing with a friend about an issue on which he or she has a very different opinion. (S) ')])
+53.8475 	EXP 	RatingScale rating_4: reset()
+53.8627 	EXP 	riskPerceptionActivity2: autoDraw = False
+53.8627 	EXP 	rating_4: autoDraw = False
+53.8627 	EXP 	notAtAllRisky: autoDraw = False
+53.8627 	EXP 	ExtremelyRisky: autoDraw = False
+53.8627 	EXP 	ModeratelyRisky: autoDraw = False
+53.8627 	EXP 	riskPerceptionActivity2: text = 'Arguing with a friend about an issue on which he or she has a very different opinion. (S) '
+53.8627 	EXP 	riskPerceptionActivity2: autoDraw = True
+53.8627 	EXP 	rating_4: autoDraw = True
+53.8627 	EXP 	notAtAllRisky: autoDraw = True
+53.8627 	EXP 	ExtremelyRisky: autoDraw = True
+53.8627 	EXP 	ModeratelyRisky: autoDraw = True
+53.8699 	DATA 	Keypress: 3
+53.9180 	DATA 	Mouse:  Left button up, pos=(704,170)
+54.0852 	DATA 	Mouse: Left button down, pos=(704,170)
+54.1204 	DATA 	Keypress: 3
+54.1995 	DATA 	Mouse:  Left button up, pos=(704,170)
+54.3683 	DATA 	Keypress: 3
+54.4174 	DATA 	Mouse: Left button down, pos=(704,170)
+54.4183 	DATA 	RatingScale rating_4: (mouse response) rating=3
+54.4183 	DATA 	RatingScale rating_4: rating RT=0.570
+54.4184 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.023), (3, 0.57)]
+54.4329 	EXP 	New trial (rep=0, index=16): OrderedDict([('C', 'Going down a ski run that is beyond your ability or closed. (R)')])
+54.4431 	EXP 	RatingScale rating_4: reset()
+54.4633 	EXP 	riskPerceptionActivity2: autoDraw = False
+54.4633 	EXP 	rating_4: autoDraw = False
+54.4633 	EXP 	notAtAllRisky: autoDraw = False
+54.4633 	EXP 	ExtremelyRisky: autoDraw = False
+54.4633 	EXP 	ModeratelyRisky: autoDraw = False
+54.4633 	EXP 	riskPerceptionActivity2: text = 'Going down a ski run that is beyond your ability or closed. (R)'
+54.4633 	EXP 	riskPerceptionActivity2: autoDraw = True
+54.4633 	EXP 	rating_4: autoDraw = True
+54.4633 	EXP 	notAtAllRisky: autoDraw = True
+54.4633 	EXP 	ExtremelyRisky: autoDraw = True
+54.4633 	EXP 	ModeratelyRisky: autoDraw = True
+54.5186 	DATA 	Mouse:  Left button up, pos=(704,170)
+54.6348 	DATA 	Keypress: 3
+54.6843 	DATA 	Mouse: Left button down, pos=(704,170)
+54.7517 	DATA 	Mouse:  Left button up, pos=(704,170)
+54.8823 	DATA 	Mouse: Left button down, pos=(704,170)
+54.8829 	DATA 	RatingScale rating_4: (mouse response) rating=3
+54.8830 	DATA 	RatingScale rating_4: rating RT=0.439
+54.8830 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.192), (3, 0.439)]
+54.8999 	EXP 	New trial (rep=0, index=17): OrderedDict([('C', 'Investing 5% of your annual income in a very speculative stock. (I)')])
+54.9098 	EXP 	RatingScale rating_4: reset()
+54.9152 	DATA 	Keypress: 3
+54.9295 	EXP 	riskPerceptionActivity2: autoDraw = False
+54.9295 	EXP 	rating_4: autoDraw = False
+54.9295 	EXP 	notAtAllRisky: autoDraw = False
+54.9295 	EXP 	ExtremelyRisky: autoDraw = False
+54.9295 	EXP 	ModeratelyRisky: autoDraw = False
+54.9295 	EXP 	riskPerceptionActivity2: text = 'Investing 5% of your annual income in a very speculative stock. (I)'
+54.9295 	EXP 	riskPerceptionActivity2: autoDraw = True
+54.9295 	EXP 	rating_4: autoDraw = True
+54.9295 	EXP 	notAtAllRisky: autoDraw = True
+54.9295 	EXP 	ExtremelyRisky: autoDraw = True
+54.9295 	EXP 	ModeratelyRisky: autoDraw = True
+55.0013 	DATA 	Mouse:  Left button up, pos=(704,170)
+55.1427 	DATA 	Keypress: 3
+55.1442 	DATA 	Mouse: Left button down, pos=(704,170)
+55.2362 	DATA 	Mouse:  Left button up, pos=(704,170)
+55.3689 	DATA 	Mouse: Left button down, pos=(704,170)
+55.3700 	DATA 	RatingScale rating_4: (mouse response) rating=3
+55.3701 	DATA 	RatingScale rating_4: rating RT=0.459
+55.3701 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.006), (3, 0.459)]
+55.3819 	EXP 	New trial (rep=0, index=18): OrderedDict([('C', 'Approaching your boss to ask for a raise. (S)')])
+55.3884 	EXP 	RatingScale rating_4: reset()
+55.3924 	DATA 	Keypress: 3
+55.4131 	EXP 	riskPerceptionActivity2: autoDraw = False
+55.4131 	EXP 	rating_4: autoDraw = False
+55.4131 	EXP 	notAtAllRisky: autoDraw = False
+55.4131 	EXP 	ExtremelyRisky: autoDraw = False
+55.4131 	EXP 	ModeratelyRisky: autoDraw = False
+55.4131 	EXP 	riskPerceptionActivity2: text = 'Approaching your boss to ask for a raise. (S)'
+55.4131 	EXP 	riskPerceptionActivity2: autoDraw = True
+55.4131 	EXP 	rating_4: autoDraw = True
+55.4131 	EXP 	notAtAllRisky: autoDraw = True
+55.4131 	EXP 	ExtremelyRisky: autoDraw = True
+55.4131 	EXP 	ModeratelyRisky: autoDraw = True
+55.4529 	DATA 	Mouse:  Left button up, pos=(704,170)
+55.5863 	DATA 	Mouse: Left button down, pos=(704,170)
+55.6346 	DATA 	Keypress: 3
+55.6852 	DATA 	Mouse:  Left button up, pos=(704,170)
+55.8027 	DATA 	Mouse: Left button down, pos=(704,170)
+55.8178 	DATA 	RatingScale rating_4: (mouse response) rating=3
+55.8178 	DATA 	RatingScale rating_4: rating RT=0.429
+55.8178 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.004), (3, 0.429)]
+55.8326 	EXP 	New trial (rep=0, index=19): OrderedDict([('C', 'Illegally copying a piece of software. (E) ')])
+55.8405 	EXP 	RatingScale rating_4: reset()
+55.8634 	EXP 	riskPerceptionActivity2: autoDraw = False
+55.8634 	EXP 	rating_4: autoDraw = False
+55.8634 	EXP 	notAtAllRisky: autoDraw = False
+55.8634 	EXP 	ExtremelyRisky: autoDraw = False
+55.8634 	EXP 	ModeratelyRisky: autoDraw = False
+55.8634 	EXP 	riskPerceptionActivity2: text = 'Illegally copying a piece of software. (E) '
+55.8634 	EXP 	riskPerceptionActivity2: autoDraw = True
+55.8634 	EXP 	rating_4: autoDraw = True
+55.8634 	EXP 	notAtAllRisky: autoDraw = True
+55.8634 	EXP 	ExtremelyRisky: autoDraw = True
+55.8634 	EXP 	ModeratelyRisky: autoDraw = True
+55.8855 	DATA 	Keypress: 3
+55.9003 	DATA 	Mouse:  Left button up, pos=(704,170)
+56.0525 	DATA 	Mouse: Left button down, pos=(704,170)
+56.0687 	DATA 	Keypress: 3
+56.1360 	DATA 	Mouse:  Left button up, pos=(704,170)
+56.2688 	DATA 	Mouse: Left button down, pos=(704,170)
+56.2697 	DATA 	RatingScale rating_4: (mouse response) rating=3
+56.2698 	DATA 	RatingScale rating_4: rating RT=0.428
+56.2698 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.046), (3, 0.428)]
+56.2829 	EXP 	New trial (rep=0, index=20): OrderedDict([('C', 'Going whitewater rafting during rapid water flows in the spring. (R) ')])
+56.2935 	EXP 	RatingScale rating_4: reset()
+56.3132 	EXP 	riskPerceptionActivity2: autoDraw = False
+56.3132 	EXP 	rating_4: autoDraw = False
+56.3132 	EXP 	notAtAllRisky: autoDraw = False
+56.3132 	EXP 	ExtremelyRisky: autoDraw = False
+56.3132 	EXP 	ModeratelyRisky: autoDraw = False
+56.3132 	EXP 	riskPerceptionActivity2: text = 'Going whitewater rafting during rapid water flows in the spring. (R) '
+56.3132 	EXP 	riskPerceptionActivity2: autoDraw = True
+56.3132 	EXP 	rating_4: autoDraw = True
+56.3132 	EXP 	notAtAllRisky: autoDraw = True
+56.3132 	EXP 	ExtremelyRisky: autoDraw = True
+56.3132 	EXP 	ModeratelyRisky: autoDraw = True
+56.3518 	DATA 	Mouse:  Left button up, pos=(704,170)
+56.5505 	DATA 	Keypress: 3
+56.6837 	DATA 	Mouse: Left button down, pos=(704,170)
+56.7020 	DATA 	RatingScale rating_4: (mouse response) rating=3
+56.7020 	DATA 	RatingScale rating_4: rating RT=0.408
+56.7021 	DATA 	RatingScale rating_4: history=[(None, 0.0), (3, 0.257), (3, 0.407)]
+56.7056 	DATA 	Keypress: 3
+56.7151 	EXP 	New trial (rep=0, index=21): OrderedDict([('C', "Betting a day's income on the outcome of a sporting event (e.g. baseball, soccer, or football). (G)")])
+56.7224 	EXP 	RatingScale rating_4: reset()
+56.7467 	EXP 	riskPerceptionActivity2: autoDraw = False
+56.7467 	EXP 	rating_4: autoDraw = False
+56.7467 	EXP 	notAtAllRisky: autoDraw = False
+56.7467 	EXP 	ExtremelyRisky: autoDraw = False
+56.7467 	EXP 	ModeratelyRisky: autoDraw = False
+56.7467 	EXP 	riskPerceptionActivity2: text = "Betting a day's income on the outcome of a sporting event (e.g. baseball, soccer, or football). (G)"
+56.7467 	EXP 	riskPerceptionActivity2: autoDraw = True
+56.7467 	EXP 	rating_4: autoDraw = True
+56.7467 	EXP 	notAtAllRisky: autoDraw = True
+56.7467 	EXP 	ExtremelyRisky: autoDraw = True
+56.7467 	EXP 	ModeratelyRisky: autoDraw = True
+56.7856 	DATA 	Mouse:  Left button up, pos=(704,170)
+57.3722 	DATA 	Keypress: escape
+57.7572 	EXP 	window1: mouseVisible = True
+57.7573 	DEBUG 	Saving data for Big5 ExperimentHandler
+57.7591 	INFO 	saved data to /Users/sabrinado/Library/CELSYS/Big5/data/_Big5_2020_Oct_27_1546.psydat
+57.7671 	INFO 	saved data to '/Users/sabrinado/Library/CELSYS/Big5/data/_Big5_2020_Oct_27_1546.csv'
