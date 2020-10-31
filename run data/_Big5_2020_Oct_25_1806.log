@@ -1,0 +1,13 @@
+0.2926 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.3650 	INFO 	Loaded monitor calibration from ['2020_10_12 18:18']
+4.1562 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='white', colorSpace='named', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1427d7c18>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x142705a58>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.1566 	EXP 	window1: mouseVisible = True
+4.1566 	EXP 	window1: recordFrameIntervals = False
+4.3382 	EXP 	window1: recordFrameIntervals = True
+4.5225 	DEBUG 	Screen (0) actual frame rate measured at 60.09
+4.5225 	EXP 	window1: recordFrameIntervals = False
+4.6243 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.9586 	EXP 	window1: mouseVisible = True
+4.9590 	DEBUG 	Saving data for Big5 ExperimentHandler
+4.9596 	INFO 	saved data to /Users/sabrinado/Desktop/data/_Big5_2020_Oct_25_1806.psydat
+4.9601 	INFO 	saved data to '/Users/sabrinado/Desktop/data/_Big5_2020_Oct_25_1806.csv'
